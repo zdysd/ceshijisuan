@@ -1,0 +1,7 @@
+numpy>=2.0,<3
+scipy>=1.14,<2
+matplotlib>=3.9,<4
+scikit-image>=0.24,<1
+shapely>=2.0,<3
+mph>=1.2,<2
+meshpy>=2025,<2027

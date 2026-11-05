@@ -1,0 +1,37 @@
+{
+  "h": 0.001,
+  "start": 0.09199890375644942,
+  "sponge": 0.15399835563467412,
+  "length": 0.33799616314757297,
+  "absorb_length": 0.18399780751289885,
+  "pre_positions": [
+    0.07999890375644943,
+    0.08199890375644943,
+    0.08399890375644942
+  ],
+  "post_positions": [
+    0.11599890375644942,
+    0.11799890375644942,
+    0.11999890375644942
+  ],
+  "frequencies": [
+    50000.0,
+    100000.0,
+    200000.0
+  ],
+  "diameter_groups_um": [
+    20,
+    40,
+    80
+  ],
+  "porosity": 0.015,
+  "thresholds": [
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "primary_threshold": 0.001,
+  "modal_residual_tolerance": 0.01,
+  "numerical_amplitude_error_target": 0.0002,
+  "shape_model": "Controlled groups of Gaussian-field-derived irregular contours; position field is regenerated independently."
+}

@@ -1,0 +1,8 @@
+{
+  "geometries": 23,
+  "initial_variants": 69,
+  "initial_modal_solves_upper_bound": 138,
+  "refinements_max": 2,
+  "first_measured_timing": null,
+  "note": "Upper bound before reuse; each solve preserves all three port sampling densities."
+}

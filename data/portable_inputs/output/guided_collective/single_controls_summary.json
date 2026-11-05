@@ -1,0 +1,200 @@
+[
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "max_transmission_change": 9.624084114090437e-07,
+    "worst_case": "d20\\single_minimum",
+    "max_reflected_modal_change": 0.00034614187220379536,
+    "representative_mesh_difference": 2.4565136036436286e-08,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "max_transmission_change": 0.00015465623663413197,
+    "worst_case": "d20\\single_minimum",
+    "max_reflected_modal_change": 0.00045800486422447375,
+    "representative_mesh_difference": 2.4783446107456975e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "max_transmission_change": 3.870513892723082e-06,
+    "worst_case": "d20\\single_minimum",
+    "max_reflected_modal_change": 0.0005176298716419431,
+    "representative_mesh_difference": 6.600261426292775e-08,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "max_transmission_change": 0.00018210054265654918,
+    "worst_case": "d20\\single_minimum",
+    "max_reflected_modal_change": 0.0006044827837079557,
+    "representative_mesh_difference": 3.796169532899185e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "max_transmission_change": 1.5429047981019295e-05,
+    "worst_case": "d20\\single_minimum",
+    "max_reflected_modal_change": 0.0007971821774705709,
+    "representative_mesh_difference": 1.770998521166689e-07,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "max_transmission_change": 0.00024435594894489654,
+    "worst_case": "d20\\single_minimum",
+    "max_reflected_modal_change": 0.0009818540716766523,
+    "representative_mesh_difference": 6.573213215443907e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "max_transmission_change": 3.8004150759718414e-07,
+    "worst_case": "d40\\single_surface_upper",
+    "max_reflected_modal_change": 0.0010465128531169283,
+    "representative_mesh_difference": 6.443816857881757e-08,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "max_transmission_change": 2.2715124772032524e-05,
+    "worst_case": "d40\\single_maximum",
+    "max_reflected_modal_change": 0.0011195575382394823,
+    "representative_mesh_difference": 2.3565718468954167e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "max_transmission_change": 1.3998339951637462e-06,
+    "worst_case": "d40\\single_surface_lower",
+    "max_reflected_modal_change": 0.0015762112296934037,
+    "representative_mesh_difference": 2.5591494889898314e-07,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "max_transmission_change": 3.143031333885382e-05,
+    "worst_case": "d40\\single_maximum",
+    "max_reflected_modal_change": 0.0016422523139261586,
+    "representative_mesh_difference": 3.267065895995458e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "max_transmission_change": 4.482621187906766e-06,
+    "worst_case": "d40\\single_surface_lower",
+    "max_reflected_modal_change": 0.0024486690401265125,
+    "representative_mesh_difference": 5.43183893308985e-07,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "max_transmission_change": 5.561854133384614e-05,
+    "worst_case": "d40\\single_surface_lower",
+    "max_reflected_modal_change": 0.0024547057937282495,
+    "representative_mesh_difference": 5.207469271606424e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "max_transmission_change": 2.7306685207895143e-05,
+    "worst_case": "d80\\single_surface_upper",
+    "max_reflected_modal_change": 0.008217003284902213,
+    "representative_mesh_difference": 2.3634008528006234e-08,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "max_transmission_change": 6.368737123163548e-05,
+    "worst_case": "d80\\single_surface_upper",
+    "max_reflected_modal_change": 0.009292383949375514,
+    "representative_mesh_difference": 5.993204001519814e-06,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "max_transmission_change": 8.234918583127637e-05,
+    "worst_case": "d80\\single_surface_upper",
+    "max_reflected_modal_change": 0.012069189958492904,
+    "representative_mesh_difference": 1.320111073788155e-07,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "max_transmission_change": 0.000153728067807557,
+    "worst_case": "d80\\single_surface_upper",
+    "max_reflected_modal_change": 0.01314052259828575,
+    "representative_mesh_difference": 1.2934626841598629e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "max_transmission_change": 0.00025817412770412496,
+    "worst_case": "d80\\single_surface_upper",
+    "max_reflected_modal_change": 0.018132465171417485,
+    "representative_mesh_difference": 4.719682578868678e-06,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "max_transmission_change": 0.0003754500694509444,
+    "worst_case": "d80\\single_surface_upper",
+    "max_reflected_modal_change": 0.018529026221093405,
+    "representative_mesh_difference": 2.5130627555158824e-05,
+    "transmission_screen_with_representative_mesh_margin": true,
+    "note": "Mesh margin comes from representative maximum, not a certified error bound for every translated shape."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "case": "single_max_span_upper_r90",
+    "level": 2,
+    "absorber": false,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "seconds": 35.9516830999637
+  },
+  {
+    "case": "single_max_span_upper_r90",
+    "level": 2,
+    "absorber": false,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "seconds": 36.908857300062664
+  }
+]

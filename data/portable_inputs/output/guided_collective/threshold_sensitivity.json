@@ -1,0 +1,50 @@
+[
+  {
+    "mode": "S0",
+    "threshold": 0.0001,
+    "single_below": false,
+    "group_ci_lower_above": true,
+    "group_ci_lower_minus_representative_mesh_above": true,
+    "reflected_single_below": false
+  },
+  {
+    "mode": "S0",
+    "threshold": 0.001,
+    "single_below": true,
+    "group_ci_lower_above": true,
+    "group_ci_lower_minus_representative_mesh_above": true,
+    "reflected_single_below": false
+  },
+  {
+    "mode": "S0",
+    "threshold": 0.01,
+    "single_below": true,
+    "group_ci_lower_above": false,
+    "group_ci_lower_minus_representative_mesh_above": false,
+    "reflected_single_below": false
+  },
+  {
+    "mode": "A0",
+    "threshold": 0.0001,
+    "single_below": false,
+    "group_ci_lower_above": true,
+    "group_ci_lower_minus_representative_mesh_above": true,
+    "reflected_single_below": false
+  },
+  {
+    "mode": "A0",
+    "threshold": 0.001,
+    "single_below": true,
+    "group_ci_lower_above": true,
+    "group_ci_lower_minus_representative_mesh_above": true,
+    "reflected_single_below": false
+  },
+  {
+    "mode": "A0",
+    "threshold": 0.01,
+    "single_below": true,
+    "group_ci_lower_above": false,
+    "group_ci_lower_minus_representative_mesh_above": false,
+    "reflected_single_below": false
+  }
+]

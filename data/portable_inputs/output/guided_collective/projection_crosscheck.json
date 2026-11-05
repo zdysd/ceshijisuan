@@ -1,0 +1,46 @@
+[
+  {
+    "case": "reference",
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "measured_void_area_m2": -7.929957742975474e-12,
+    "requested_void_area_m2": 0.0,
+    "relative_void_area_error": 0.0,
+    "least_squares_reduction": 0.0,
+    "reciprocity_reduction": 0.0,
+    "absolute_magnitude_difference": 0.0
+  },
+  {
+    "case": "d20/L8/seed_101",
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "measured_void_area_m2": 1.1999235109005782e-07,
+    "requested_void_area_m2": 1.1999999999999994e-07,
+    "relative_void_area_error": 6.374091618432942e-05,
+    "least_squares_reduction": -0.00028198676879997997,
+    "reciprocity_reduction": -0.0003518769549883949,
+    "absolute_magnitude_difference": 6.989018618841492e-05
+  },
+  {
+    "case": "d40/L8/seed_101",
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "measured_void_area_m2": 1.1999501808309483e-07,
+    "requested_void_area_m2": 1.2e-07,
+    "relative_void_area_error": 4.1515974209649364e-05,
+    "least_squares_reduction": -0.0002119330084577875,
+    "reciprocity_reduction": -0.00016039907611942184,
+    "absolute_magnitude_difference": 5.153393233836567e-05
+  },
+  {
+    "case": "d80/single_maximum",
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "measured_void_area_m2": 6.819802657548422e-09,
+    "requested_void_area_m2": 6.825789434078519e-09,
+    "relative_void_area_error": 0.0008770819240638827,
+    "least_squares_reduction": 1.4252841452955245e-05,
+    "reciprocity_reduction": 1.2540315146414294e-05,
+    "absolute_magnitude_difference": 1.7125263065409513e-06
+  }
+]

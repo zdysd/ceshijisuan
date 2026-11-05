@@ -1,0 +1,7 @@
+* text=auto
+*.py -text
+*.ps1 text eol=lf
+*.md text eol=lf
+*.npz -text
+data/portable_inputs/** -text
+migration/original_execution_manifest.json -text

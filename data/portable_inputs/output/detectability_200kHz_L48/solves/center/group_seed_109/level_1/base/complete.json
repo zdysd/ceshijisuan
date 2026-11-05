@@ -1,0 +1,17 @@
+{
+  "signature_sha256": "475552edbff2aa96d20e717e750c00708117e0d23a949904bb519c578fbc8e59",
+  "geometry": {
+    "pore_count": 141,
+    "actual_area_m2": 7.19999777108423e-07,
+    "expected_area_m2": 7.199999999999997e-07,
+    "absolute_area_fraction_error": 4.643574514044899e-09,
+    "boundary_selections": {}
+  },
+  "legacy_sources": [],
+  "finished_at": "2026-10-28T20:30:04.267191+00:00",
+  "absorber_anchor_frequency_hz": 200000.0,
+  "launch_sha256": {
+    "200000_A0.npz": "ff2c4079c76d01d47e4d94b993e1b46fffff92ea66b4d00037f75b091c23eb1f",
+    "200000_S0.npz": "a5e025b74866e016f5eb4be3c0a68a224e24235c59a14a72a325de020b6bec23"
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "frequency_hz": 50000.0,
+    "relative_transmission_change": [
+      8.345968582901264e-09,
+      1.5416837937598515e-05
+    ]
+  },
+  {
+    "frequency_hz": 100000.0,
+    "relative_transmission_change": [
+      2.958764500071709e-08,
+      2.1911924214634837e-05
+    ]
+  },
+  {
+    "frequency_hz": 200000.0,
+    "relative_transmission_change": [
+      4.330693115228712e-08,
+      3.4946514194889033e-05
+    ]
+  }
+]

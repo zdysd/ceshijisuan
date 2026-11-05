@@ -1,0 +1,477 @@
+{
+  "ready_for_ensemble": false,
+  "checks": [
+    {
+      "kind": "bulk",
+      "case": "group",
+      "length_m": 0.008,
+      "seed": 101,
+      "complete": true,
+      "passed": false,
+      "differences": {
+        "mesh": {
+          "complex_T_delta": 1.0360325883426165e-05,
+          "magnitude_delta": 7.710314163134058e-06,
+          "phase_error_deg": 0.000531102989671847,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 7.710314163023035e-06,
+              "phase_error_deg": 0.000531102989671847,
+              "relative_loss_change": 3.0420080859540682e-05
+            }
+          },
+          "relative_loss_change": 3.0420080859978693e-05,
+          "band": {
+            "magnitude_delta": 4.1585776742736336e-05,
+            "phase_error_deg": 0.003140078594800509,
+            "relative_loss_change": 0.00011515758286509718
+          }
+        },
+        "time": {
+          "complex_T_delta": 0.00048552665175952055,
+          "magnitude_delta": 0.00039156850837651636,
+          "phase_error_deg": 0.022032737642523347,
+          "method": "transient",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 0.00039156850837640533,
+              "phase_error_deg": 0.022032737642523347,
+              "relative_loss_change": 0.0015436132085706895
+            }
+          },
+          "relative_loss_change": 0.0015436132085711266,
+          "band": {
+            "magnitude_delta": 0.0018870685211769267,
+            "phase_error_deg": 0.2632841619941064,
+            "relative_loss_change": 0.005188766225093517
+          }
+        },
+        "absorber": {
+          "complex_T_delta": 1.0580017135478199e-05,
+          "magnitude_delta": 8.5595927723503e-06,
+          "phase_error_deg": 0.0004772557705312655,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 8.5595927723503e-06,
+              "phase_error_deg": 0.0004772557705312655,
+              "relative_loss_change": 3.3771830807703184e-05
+            }
+          },
+          "relative_loss_change": 3.3771830807703184e-05,
+          "band": {
+            "magnitude_delta": 3.684022065231218e-05,
+            "phase_error_deg": 0.002157154069552173,
+            "relative_loss_change": 0.00010201772928570722
+          }
+        },
+        "width": {
+          "complex_T_delta": 6.546244163202754e-06,
+          "magnitude_delta": 1.8248929776198963e-06,
+          "phase_error_deg": 0.00048249381490186866,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 1.8248929776198963e-06,
+              "phase_error_deg": 0.00048249381490186866,
+              "relative_loss_change": 7.20005434630503e-06
+            }
+          },
+          "relative_loss_change": 7.20005434630503e-06,
+          "band": {
+            "magnitude_delta": 3.206582143544523e-05,
+            "phase_error_deg": 0.003158369425694097,
+            "relative_loss_change": 8.879766417188968e-05
+          }
+        }
+      },
+      "tail_energy_fraction": 0.00041733340143980976,
+      "window_delta_max": 0.007133419578614934,
+      "residual_max": 0.0,
+      "harmonic_magnitude_delta": 0.0001881034950379501,
+      "harmonic_diagonal_phase_error_deg": 0.38708530832566074,
+      "frequency_band_consistency": {
+        "magnitude_delta": 0.0026390446936778167,
+        "phase_error_deg": 0.3816848459641372,
+        "relative_loss_change": 0.007827912895650345,
+        "passed": false,
+        "by_mode": {
+          "P": {
+            "magnitude_delta": 0.0026390446936778167,
+            "relative_loss_change": 0.007827912895650345,
+            "phase_error_deg": 0.3816848459641372
+          }
+        }
+      },
+      "arrival_checks": [
+        {
+          "mode": "P",
+          "expected_group_velocity_m_s": 2402.7073801903002,
+          "measured_group_velocity_m_s": 2389.2035807024954,
+          "relative_error": 0.00562024306377884
+        }
+      ]
+    },
+    {
+      "kind": "bulk",
+      "case": "reference",
+      "length_m": 0.008,
+      "seed": 101,
+      "complete": true,
+      "passed": true,
+      "differences": {
+        "mesh": {
+          "complex_T_delta": 5.608278534603416e-07,
+          "magnitude_delta": 5.270088148101593e-07,
+          "phase_error_deg": 1.0989684255172323e-05,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 5.270088148101593e-07,
+              "phase_error_deg": 1.0989684255172323e-05,
+              "relative_loss_change": 1.0371747063042198
+            }
+          },
+          "relative_loss_change": 1.0371747063042198,
+          "band": {
+            "magnitude_delta": 1.6220687678591972e-06,
+            "phase_error_deg": 0.00035104299689637906,
+            "relative_loss_change": 1.042611860447134
+          }
+        },
+        "time": {
+          "complex_T_delta": 0.004467102495862477,
+          "magnitude_delta": 5.2621163648680636e-08,
+          "phase_error_deg": 0.2559419967027884,
+          "method": "transient",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 5.262116387072524e-08,
+              "phase_error_deg": 0.2559419967027884,
+              "relative_loss_change": 0.003101445256485906
+            }
+          },
+          "relative_loss_change": 0.0031014452433987916,
+          "band": {
+            "magnitude_delta": 2.2726725046329221e-07,
+            "phase_error_deg": 0.621031395663158,
+            "relative_loss_change": 0.02526224499607393
+          }
+        },
+        "absorber": {
+          "complex_T_delta": 1.281693164239158e-06,
+          "magnitude_delta": 9.72876693206004e-07,
+          "phase_error_deg": 4.780845597884705e-05,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 9.72876693206004e-07,
+              "phase_error_deg": 4.780845597884705e-05,
+              "relative_loss_change": 1.9146607612429376
+            }
+          },
+          "relative_loss_change": 1.9146607612429376,
+          "band": {
+            "magnitude_delta": 2.9885058511203155e-06,
+            "phase_error_deg": 0.00020340327416471104,
+            "relative_loss_change": 1.920912175324103
+          }
+        },
+        "width": {
+          "complex_T_delta": 1.3821791071994521e-06,
+          "magnitude_delta": 1.1978725193984019e-06,
+          "phase_error_deg": 3.95100646876854e-05,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "P": {
+              "magnitude_delta": 1.1978725192873796e-06,
+              "phase_error_deg": 3.95100646876854e-05,
+              "relative_loss_change": 0.7021559441089446
+            }
+          },
+          "relative_loss_change": 0.7021559441283276,
+          "band": {
+            "magnitude_delta": 3.78327753847163e-06,
+            "phase_error_deg": 0.00017182933354191536,
+            "relative_loss_change": 0.7086047545897697
+          }
+        }
+      },
+      "tail_energy_fraction": 1.0005618193451432e-06,
+      "window_delta_max": 5.382463474542948e-05,
+      "residual_max": 0.0,
+      "harmonic_magnitude_delta": 1.742215738809172e-05,
+      "harmonic_diagonal_phase_error_deg": 0.3411870712340915,
+      "frequency_band_consistency": {
+        "magnitude_delta": 3.6255659603523505e-05,
+        "phase_error_deg": 0.8275877905664185,
+        "relative_loss_change": 1.1013666352853841,
+        "passed": true,
+        "by_mode": {
+          "P": {
+            "magnitude_delta": 3.6255659603523505e-05,
+            "relative_loss_change": 1.1013666352853841,
+            "phase_error_deg": 0.8275877905664185
+          }
+        }
+      },
+      "arrival_checks": [
+        {
+          "mode": "P",
+          "expected_group_velocity_m_s": 2402.7073801903002,
+          "measured_group_velocity_m_s": 2402.0165576111367,
+          "relative_error": 0.0002875183989774488
+        }
+      ]
+    },
+    {
+      "kind": "guided",
+      "case": "group",
+      "length_m": 0.008,
+      "seed": 101,
+      "complete": true,
+      "passed": false,
+      "differences": {
+        "mesh": {
+          "complex_T_delta": 2.153575709807368e-06,
+          "magnitude_delta": 7.034826435825536e-07,
+          "phase_error_deg": 0.00011665955106542322,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "S0": {
+              "magnitude_delta": 6.978572708593589e-08,
+              "phase_error_deg": 2.077789867160367e-05,
+              "relative_loss_change": 0.00011424674646978139
+            },
+            "A0": {
+              "magnitude_delta": 7.034826435825536e-07,
+              "phase_error_deg": 0.00011665955106542322,
+              "relative_loss_change": 0.0021775276509929872
+            }
+          },
+          "relative_loss_change": 0.0021775276509929872,
+          "band": {
+            "magnitude_delta": 8.976435403873495e-07,
+            "phase_error_deg": 0.00017601940984554712,
+            "relative_loss_change": 0.0023552258895172444
+          }
+        },
+        "time": {
+          "complex_T_delta": 2.8757306203223116e-05,
+          "magnitude_delta": 8.280812587635467e-06,
+          "phase_error_deg": 0.001635973020990306,
+          "method": "transient",
+          "by_mode": {
+            "S0": {
+              "magnitude_delta": 8.280812587857511e-06,
+              "phase_error_deg": 0.000798736811833747,
+              "relative_loss_change": 0.013518426138367715
+            },
+            "A0": {
+              "magnitude_delta": 3.497087846526803e-06,
+              "phase_error_deg": 0.001635973020990306,
+              "relative_loss_change": 0.010752498224612292
+            }
+          },
+          "relative_loss_change": 0.013518426138007677,
+          "band": {
+            "magnitude_delta": 0.0001184421289942561,
+            "phase_error_deg": 0.015512325683756049,
+            "relative_loss_change": 0.2574065875793694
+          }
+        },
+        "absorber": {
+          "complex_T_delta": 2.756697590565498e-06,
+          "magnitude_delta": 1.958581612004906e-06,
+          "phase_error_deg": 0.00011118577930608474,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "S0": {
+              "magnitude_delta": 1.921858640008267e-07,
+              "phase_error_deg": 2.8139612142214745e-05,
+              "relative_loss_change": 0.0003145659114545966
+            },
+            "A0": {
+              "magnitude_delta": 1.9585816121159283e-06,
+              "phase_error_deg": 0.00011118577930608474,
+              "relative_loss_change": 0.006062502971487133
+            }
+          },
+          "relative_loss_change": 0.00606250297114348,
+          "band": {
+            "magnitude_delta": 2.736370974920632e-06,
+            "phase_error_deg": 0.00014718620915345654,
+            "relative_loss_change": 0.006786643723456638
+          }
+        }
+      },
+      "tail_energy_fraction": 1.8195327384992407e-06,
+      "window_delta_max": 0.0002089844069473208,
+      "residual_max": 0.0012025047453251348,
+      "harmonic_magnitude_delta": 2.2863025545549753e-05,
+      "harmonic_diagonal_phase_error_deg": 0.40960004320917537,
+      "frequency_band_consistency": {
+        "magnitude_delta": 0.00011869496659167034,
+        "phase_error_deg": 0.009806264321299347,
+        "relative_loss_change": 0.28326705782287315,
+        "passed": false,
+        "by_mode": {
+          "S0": {
+            "magnitude_delta": 6.314395170914366e-05,
+            "relative_loss_change": 0.28326705782287315,
+            "phase_error_deg": 0.0029516457837656
+          },
+          "A0": {
+            "magnitude_delta": 0.00011869496659167034,
+            "relative_loss_change": 0.16006120989919825,
+            "phase_error_deg": 0.009806264321299347
+          }
+        }
+      },
+      "arrival_checks": [
+        {
+          "mode": "S0",
+          "expected_group_velocity_m_s": 2292.577891666007,
+          "measured_group_velocity_m_s": 2390.3493220217074,
+          "relative_error": 0.04264693937384623
+        },
+        {
+          "mode": "A0",
+          "expected_group_velocity_m_s": 1433.8541428098522,
+          "measured_group_velocity_m_s": 1422.8593228843272,
+          "relative_error": 0.007668018382943065
+        }
+      ]
+    },
+    {
+      "kind": "guided",
+      "case": "reference",
+      "length_m": 0.008,
+      "seed": 101,
+      "complete": true,
+      "passed": true,
+      "differences": {
+        "mesh": {
+          "complex_T_delta": 7.53881238259215e-07,
+          "magnitude_delta": 6.666032126290133e-07,
+          "phase_error_deg": 2.01740540089488e-05,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "S0": {
+              "magnitude_delta": 8.571137133372986e-10,
+              "phase_error_deg": 5.858425521176267e-07,
+              "relative_loss_change": 0.9467338258514627
+            },
+            "A0": {
+              "magnitude_delta": 6.666032126290133e-07,
+              "phase_error_deg": 2.01740540089488e-05,
+              "relative_loss_change": 0.9751950543038204
+            }
+          },
+          "relative_loss_change": 0.9751950543038204,
+          "band": {
+            "magnitude_delta": 9.257966311349008e-07,
+            "phase_error_deg": 2.7123586929616038e-05,
+            "relative_loss_change": 0.9853312543401518
+          }
+        },
+        "time": {
+          "complex_T_delta": 0.005339117973873233,
+          "magnitude_delta": 1.1445471495674653e-05,
+          "phase_error_deg": 0.3059075208147149,
+          "method": "transient",
+          "by_mode": {
+            "S0": {
+              "magnitude_delta": 1.1445471495674653e-05,
+              "phase_error_deg": 0.19101940756042785,
+              "relative_loss_change": 0.5429234209034431
+            },
+            "A0": {
+              "magnitude_delta": 3.03656849953704e-06,
+              "phase_error_deg": 0.3059075208147149,
+              "relative_loss_change": 0.4253767566857152
+            }
+          },
+          "relative_loss_change": 0.5429234209034431,
+          "band": {
+            "magnitude_delta": 0.00010837999913204666,
+            "phase_error_deg": 0.6838699064307984,
+            "relative_loss_change": 1.7869139873852349
+          }
+        },
+        "absorber": {
+          "complex_T_delta": 7.463940984578484e-07,
+          "magnitude_delta": 3.1715950332689147e-07,
+          "phase_error_deg": 3.871234278130759e-05,
+          "method": "matched center-frequency spatial screening",
+          "by_mode": {
+            "S0": {
+              "magnitude_delta": 1.568369878413023e-10,
+              "phase_error_deg": 1.2243126659025072e-06,
+              "relative_loss_change": 0.147656507879302
+            },
+            "A0": {
+              "magnitude_delta": 3.1715950310484686e-07,
+              "phase_error_deg": 3.871234278130759e-05,
+              "relative_loss_change": 0.46398273064644713
+            }
+          },
+          "relative_loss_change": 0.4639827309712833,
+          "band": {
+            "magnitude_delta": 5.117035226653854e-07,
+            "phase_error_deg": 4.5243331059315324e-05,
+            "relative_loss_change": 0.5446093201053032
+          }
+        }
+      },
+      "tail_energy_fraction": 1.7816218093227907e-06,
+      "window_delta_max": 7.531273654916165e-05,
+      "residual_max": 0.0008802222358356742,
+      "harmonic_magnitude_delta": 2.1082094792679307e-05,
+      "harmonic_diagonal_phase_error_deg": 0.40725052245095833,
+      "frequency_band_consistency": {
+        "magnitude_delta": 9.547038481672043e-05,
+        "phase_error_deg": 0.9120374915553213,
+        "relative_loss_change": 1.7347068977519784,
+        "passed": true,
+        "by_mode": {
+          "S0": {
+            "magnitude_delta": 9.547038481672043e-05,
+            "relative_loss_change": 1.0005061828252897,
+            "phase_error_deg": 0.6184717480352145
+          },
+          "A0": {
+            "magnitude_delta": 2.568870919017474e-05,
+            "relative_loss_change": 1.7347068977519784,
+            "phase_error_deg": 0.9120374915553213
+          }
+        }
+      },
+      "arrival_checks": [
+        {
+          "mode": "S0",
+          "expected_group_velocity_m_s": 2292.577891666007,
+          "measured_group_velocity_m_s": 2298.2064966285725,
+          "relative_error": 0.0024551423020464647
+        },
+        {
+          "mode": "A0",
+          "expected_group_velocity_m_s": 1433.8541428098522,
+          "measured_group_velocity_m_s": 1418.4566773458175,
+          "relative_error": 0.01073851586735386
+        }
+      ]
+    }
+  ],
+  "thresholds": {
+    "absolute_amplitude": 0.0002,
+    "phase_degrees": 1.0,
+    "relative_nonzero_loss": 0.05,
+    "modal_residual": 0.01,
+    "right_incoming_amplitude": 0.001,
+    "tail_energy": 0.0001,
+    "arrival_relative_error": 0.05
+  },
+  "note": "No near-zero absolute tolerance is substituted for relative attenuation precision."
+}

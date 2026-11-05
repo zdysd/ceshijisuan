@@ -1,0 +1,6 @@
+{
+  "frequency": 200000.0,
+  "mode": "A0",
+  "reuse": "new native solve",
+  "signature_sha256": "46a5175637439479fcd89284a826634cc9f7366319df2003b53b4d61e68e6f2c"
+}

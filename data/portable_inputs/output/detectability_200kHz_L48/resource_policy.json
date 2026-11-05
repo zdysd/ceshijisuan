@@ -1,0 +1,9 @@
+{
+  "allow_concurrent_with_protected_p": false,
+  "maximum_new_native_cores": 2,
+  "minimum_free_gib_before_session": 12,
+  "minimum_free_gib_before_solve": 8,
+  "require_user_idle_minutes": 20,
+  "below_normal_process_priority": true,
+  "scope": "Target-host resource guard only; no authorization to launch a solver"
+}

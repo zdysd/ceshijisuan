@@ -1,0 +1,29 @@
+48 mm COMSOL 异机最简单操作说明
+
+一、已经存在的模型
+
+1. 48 mm 孔群 seed_101：
+   output\guided_collective\d80\L48\seed_101\model.mph
+2. 48 mm 无孔参考：
+   output\guided_collective\reference_L48\model.mph
+3. 48 mm 细网格对照：
+   output\guided_collective\checks\d80_L48_fine\model.mph
+
+每个目录中还保存了 results.json 和 signals.npz。交付时请把整个目录一起复制或压缩，不要只复制 model.mph。
+
+二、电脑小白路线
+
+1. 在另一台电脑安装并打开 COMSOL 6.2。
+2. 先复制 seed_101 和 reference_L48 两个完整文件夹。
+3. 双击其中的 model.mph，确认 COMSOL 能打开；先不要覆盖原文件。
+4. 如果需要重新计算，在 COMSOL 中执行已有 Study 的 Compute，然后使用 Save As 保存为新文件，例如 model_PC2.mph。
+5. 计算结束后，关闭 COMSOL，把 seed_101 和 reference_L48 两个完整文件夹压缩成一个 ZIP。
+6. 将 ZIP 交付回来。我会读取模型、results.json 和 signals.npz，复核 200 kHz 的 S0/A0 数据。
+
+三、能否完成任务
+
+这个方法可以完成 seed_101 及其无孔参考这一个配对算例的复核。
+
+原完整任务还包括多个代表性模型、S0/A0 分开验收、网格/吸收区/瞬态检查以及 30 个新独立 seed。因此，单独一个 model.mph 不能自动完成整套验证；需要按同样方式处理相应的模型和参考。
+
+不要只交截图、Excel 或单个最终 mph。最简单的完整交付单位是“整个算例文件夹”，其中至少包括 model.mph、results.json 和 signals.npz。

@@ -1,0 +1,14 @@
+{
+  "nominal_diameter_um": 80.0,
+  "porosity": 0.015,
+  "length_mm": 48.0,
+  "seed": 138,
+  "pore_count": 141,
+  "actual_porosity": 0.014999999999999987,
+  "diameter_min_um": 63.666991548518496,
+  "diameter_mean_um": 80.17163940788102,
+  "diameter_max_um": 94.81963383571515,
+  "skin_um": 50,
+  "shape_source": "Gaussian-field contours; normalized size groups and independent uniform placement",
+  "original_field_position_correlation_preserved": false
+}

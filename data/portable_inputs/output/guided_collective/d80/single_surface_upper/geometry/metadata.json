@@ -1,0 +1,16 @@
+{
+  "nominal_diameter_um": 80,
+  "porosity": 0.015,
+  "length_mm": 8,
+  "seed": 101,
+  "pore_count": 1,
+  "actual_porosity": 0.0008532236792598149,
+  "diameter_min_um": 63.67648616695359,
+  "diameter_mean_um": 79.31851007994716,
+  "diameter_max_um": 93.22480909878131,
+  "skin_um": 50,
+  "shape_source": "Gaussian-field contours; normalized size groups and independent uniform placement",
+  "original_field_position_correlation_preserved": false,
+  "single_case": "upper",
+  "note": "Largest contour retained; translated to 50 um surface ligament."
+}

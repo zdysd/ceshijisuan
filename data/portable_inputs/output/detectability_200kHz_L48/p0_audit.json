@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-10-24T08:26:45.551288+00:00",
+  "stage": "P0",
+  "passed": true,
+  "development_statistics": [
+    {
+      "mode": "S0",
+      "n": 12,
+      "raw_score_successes": 11,
+      "raw_loss_successes": 11,
+      "development_only": true,
+      "one_sided95_lower_descriptive": 0.6613193315659674,
+      "coherent_amplitude_loss": 0.0025496253607271147,
+      "mean_individual_loss": 0.002481782531735366,
+      "strongest_legacy_single_score": 0.0002581741277039029,
+      "strongest_legacy_single": "single_surface_upper",
+      "sensitivities": [
+        {
+          "tau": 0.0001,
+          "raw_score_successes": 12
+        },
+        {
+          "tau": 0.001,
+          "raw_score_successes": 11
+        },
+        {
+          "tau": 0.01,
+          "raw_score_successes": 0
+        }
+      ],
+      "independent_validation_successes": null
+    },
+    {
+      "mode": "A0",
+      "n": 12,
+      "raw_score_successes": 11,
+      "raw_loss_successes": 11,
+      "development_only": true,
+      "one_sided95_lower_descriptive": 0.6613193315659674,
+      "coherent_amplitude_loss": 0.0030392933148435386,
+      "mean_individual_loss": 0.0029008021124090158,
+      "strongest_legacy_single_score": 0.0003754500694509444,
+      "strongest_legacy_single": "single_surface_upper",
+      "sensitivities": [
+        {
+          "tau": 0.0001,
+          "raw_score_successes": 12
+        },
+        {
+          "tau": 0.001,
+          "raw_score_successes": 11
+        },
+        {
+          "tau": 0.01,
+          "raw_score_successes": 0
+        }
+      ],
+      "independent_validation_successes": null
+    }
+  ],
+  "mesh_checks": [
+    {
+      "seed": 101,
+      "mode": "S0",
+      "magnitude_delta": 7.0621209046217714e-06,
+      "relative_loss_change": 0.005139643527516415,
+      "phase_error_deg": 0.0003319168015475214,
+      "passed": true,
+      "scope": "This seed and this mesh pair only; not total u_num"
+    },
+    {
+      "seed": 101,
+      "mode": "A0",
+      "magnitude_delta": 0.0001896654829464106,
+      "relative_loss_change": 0.03648485907358472,
+      "phase_error_deg": 0.030802569014935402,
+      "passed": true,
+      "scope": "This seed and this mesh pair only; not total u_num"
+    }
+  ],
+  "representative_seeds": [
+    101,
+    102,
+    107,
+    109
+  ],
+  "representative_order": [
+    102,
+    105,
+    103,
+    111,
+    101,
+    107,
+    106,
+    110,
+    112,
+    104,
+    108,
+    109
+  ],
+  "strongest_legacy_single": "single_surface_upper",
+  "raw_matrices_reconstructed_from_two_launches": true,
+  "legacy_single_not_L48_control": true,
+  "source_protocol": "E:\\Documents\\ChatGPT\\测试\\200kHz_S0_A0_48mm_验证执行提示词.md"
+}

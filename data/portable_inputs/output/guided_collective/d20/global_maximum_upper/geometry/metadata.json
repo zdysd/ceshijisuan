@@ -1,0 +1,17 @@
+{
+  "nominal_diameter_um": 20,
+  "porosity": 0.015,
+  "length_mm": 8,
+  "seed": 101,
+  "pore_count": 1,
+  "actual_porosity": 5.6848884404228375e-05,
+  "diameter_min_um": 16.078276295002137,
+  "diameter_mean_um": 19.995141202978544,
+  "diameter_max_um": 24.063623616993617,
+  "skin_um": 50,
+  "shape_source": "Gaussian-field contours; normalized size groups and independent uniform placement",
+  "original_field_position_correlation_preserved": false,
+  "source_case": "d20\\L8\\seed_101",
+  "single_case": "upper",
+  "note": "Largest actual equivalent-diameter contour among all generated group cases."
+}

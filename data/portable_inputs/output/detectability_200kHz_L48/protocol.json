@@ -1,0 +1,253 @@
+{
+  "schema": "detectability_200kHz_L48_v1",
+  "frequency_hz": 200000.0,
+  "modes": [
+    "S0",
+    "A0"
+  ],
+  "thickness_m": 0.001,
+  "length_mm": 48.0,
+  "porosity": 0.015,
+  "nominal_diameter_um": 80.0,
+  "tau": 0.001,
+  "sensitivity_thresholds": [
+    0.0001,
+    0.01
+  ],
+  "score": "abs(1-abs(T))",
+  "loss": "1-abs(T)",
+  "normalization": "Two independent launches; outgoing @ inverse(actual incoming); same-mode diagonal divided by matched reference diagonal",
+  "development_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+  ],
+  "independent_seeds": [
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142
+  ],
+  "n_validation": 30,
+  "exact_binomial": {
+    "method": "Clopper-Pearson one-sided 95% lower",
+    "target": 0.9,
+    "lower_30of30": 0.9049661471446958,
+    "lower_29of30": 0.8514039313408869
+  },
+  "representative_selection": "Include 101, then minimum, lower-middle sorted rank, maximum of min(signed S0 loss, signed A0 loss); ascending seed breaks ties",
+  "representative_seeds": [
+    101,
+    102,
+    107,
+    109
+  ],
+  "contour_scope": "Fixed upstream polygon library; inserting vertices is not contour convergence",
+  "numerical": {
+    "amplitude": 0.0002,
+    "phase_deg": 1.0,
+    "relative_group_loss": 0.05,
+    "residual": 0.01,
+    "right_reference": 0.001,
+    "power_balance": 0.002,
+    "max_extra_refinements": 2,
+    "u_num_rule": "sum of measured mesh, absorber and port-sampling differences; explicitly label representative-only coverage"
+  },
+  "transient": {
+    "frequencies_hz": [
+      131249.99999999997,
+      139843.74999999997,
+      148437.49999999997,
+      157031.24999999997,
+      165624.99999999997,
+      174218.74999999997,
+      182812.49999999994,
+      191406.24999999994,
+      199999.99999999994,
+      208593.74999999994,
+      217187.49999999994,
+      225781.24999999994,
+      234374.99999999994,
+      242968.74999999994,
+      251562.49999999994,
+      260156.24999999994,
+      268749.99999999994
+    ],
+    "cycles": 5,
+    "window": "Hann",
+    "initial_record_s": 0.00028,
+    "hard_limit_s": 0.00056,
+    "output": "every internal step",
+    "initial_dt_s": 6.201550387596901e-08,
+    "half_step_required": true,
+    "tail": 0.0001,
+    "window_delta": 0.0002,
+    "arrival_relative": 0.05
+  },
+  "layout": {
+    "h": 0.001,
+    "start": 0.09199890375644942,
+    "sponge": 0.15399835563467412,
+    "length": 0.33799616314757297,
+    "absorb_length": 0.18399780751289885,
+    "pre_positions": [
+      0.07999890375644943,
+      0.08199890375644943,
+      0.08399890375644942
+    ],
+    "post_positions": [
+      0.14799890375644942,
+      0.14999890375644942,
+      0.15199890375644942
+    ]
+  },
+  "material": {
+    "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+    "material_status": "illustrative_completion_not_measured_CFRP",
+    "density_kg_m3": 1815,
+    "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+      [
+        10.478,
+        3.029,
+        4.0,
+        0,
+        0,
+        0
+      ],
+      [
+        3.029,
+        10.478,
+        4.0,
+        0,
+        0,
+        0
+      ],
+      [
+        4.0,
+        4.0,
+        135.0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        5.0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5.0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7.17
+      ]
+    ],
+    "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+    "porosity_fractions": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.05
+    ],
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "pore_roi_um": [
+      1000,
+      1000
+    ],
+    "pixel_um": 2.0,
+    "correlation_lengths_um": [
+      20.0,
+      10.0
+    ],
+    "orientation_deg": 0,
+    "geometry_porosity_absolute_tolerance": 0.0001,
+    "bulk_frequencies_hz": [
+      1000000,
+      2500000,
+      5000000,
+      7500000,
+      10000000
+    ],
+    "guided_frequencies_hz": [
+      100000,
+      200000,
+      300000
+    ],
+    "plate_thickness_m": 0.001,
+    "relative_alpha_tolerance": 0.05,
+    "near_zero_cumulative_tolerance_np": 0.01,
+    "confidence_level": 0.95,
+    "baseline_damping": 0
+  },
+  "geometry_manifest_sha256": "8828c9ff0dec3576ea9b2e6a10eeb61da86f1ead8599204f1ddb9974fe22b20a",
+  "single_controls_sha256": "7f6b6c836648fa8751fc7d47170b38810df46c2bc6ffade3184f333584e2313b",
+  "seed_manifest_sha256": "59abdc583440829c14b51f0e267e88a1fd72c69781726f825a3002f929c35af7",
+  "source_geometry_sha256": "aba4e3003d6751e3f5e831ca3512482bb82b8b14baaaf10a0b9e42a09044f5c5",
+  "instruction_sha256": "29975549df35426daa614f969a751c5afa5ca945b182ca5c274ac385b96fdeda",
+  "experimental_validation": "pending: no measured noise, sensor voltage model, material calibration or experimental specimens",
+  "solver_cores": 2,
+  "old_P_queue_policy": "Leave all existing jobs, limits, checkpoints and dependencies unchanged; serialize new FE work after protected jobs exit"
+}

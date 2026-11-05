@@ -1,0 +1,527 @@
+[
+  {
+    "case": "checks\\d20_maximum_fine",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "checks\\d40_maximum_fine",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "checks\\d80_maximum_fine",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d20\\global_maximum_center",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d20\\global_maximum_lower",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d20\\global_maximum_upper",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d20\\L8\\seed_101",
+    "expected_cavities": 377,
+    "cad_cavities": 377,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\L8\\seed_102",
+    "expected_cavities": 377,
+    "cad_cavities": 377,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\L8\\seed_103",
+    "expected_cavities": 377,
+    "cad_cavities": 377,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\L8\\seed_104",
+    "expected_cavities": 377,
+    "cad_cavities": 377,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\L8\\seed_105",
+    "expected_cavities": 377,
+    "cad_cavities": 377,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\L8\\seed_106",
+    "expected_cavities": 377,
+    "cad_cavities": 377,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d20\\single_maximum",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\single_median",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\single_minimum",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d20\\single_surface_lower",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d20\\single_surface_upper",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d40\\global_maximum_center",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d40\\global_maximum_lower",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d40\\global_maximum_upper",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d40\\L8\\seed_101",
+    "expected_cavities": 94,
+    "cad_cavities": 94,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\L8\\seed_102",
+    "expected_cavities": 94,
+    "cad_cavities": 94,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\L8\\seed_103",
+    "expected_cavities": 94,
+    "cad_cavities": 94,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\L8\\seed_104",
+    "expected_cavities": 94,
+    "cad_cavities": 94,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\L8\\seed_105",
+    "expected_cavities": 94,
+    "cad_cavities": 94,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d40\\L8\\seed_106",
+    "expected_cavities": 94,
+    "cad_cavities": 94,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\single_maximum",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\single_median",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\single_minimum",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d40\\single_surface_lower",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d40\\single_surface_upper",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d80\\global_maximum_center",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d80\\global_maximum_lower",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d80\\global_maximum_upper",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d80\\L24\\seed_101",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L24\\seed_102",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L24\\seed_103",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L24\\seed_104",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L24\\seed_105",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L24\\seed_106",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L48\\seed_101",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L48\\seed_102",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L48\\seed_103",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L48\\seed_104",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L48\\seed_105",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L48\\seed_106",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L8\\seed_101",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L8\\seed_102",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L8\\seed_103",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L8\\seed_104",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L8\\seed_105",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\L8\\seed_106",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\single_maximum",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\single_median",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\single_minimum",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Previously inspected unchanged saved model"
+  },
+  {
+    "case": "d80\\single_surface_lower",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "d80\\single_surface_upper",
+    "expected_cavities": 1,
+    "cad_cavities": 1,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L24\\seed_107",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L24\\seed_108",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L24\\seed_109",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L24\\seed_110",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L24\\seed_111",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L24\\seed_112",
+    "expected_cavities": 71,
+    "cad_cavities": 71,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L48\\seed_107",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L48\\seed_108",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L48\\seed_109",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L48\\seed_110",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L48\\seed_111",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L48\\seed_112",
+    "expected_cavities": 141,
+    "cad_cavities": 141,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L8\\seed_107",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L8\\seed_108",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L8\\seed_109",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L8\\seed_110",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L8\\seed_111",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  },
+  {
+    "case": "extended_samples\\d80\\L8\\seed_112",
+    "expected_cavities": 24,
+    "cad_cavities": 24,
+    "passed": true,
+    "source": "Native final-geometry count recorded during this solve"
+  }
+]

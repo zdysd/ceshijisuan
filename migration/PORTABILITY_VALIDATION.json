@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "scope": "Windows Python 3.12 offline portability; COMSOL computation deferred",
+  "fresh_python": "3.12.14",
+  "lock_install_passed": true,
+  "pip_check_passed": true,
+  "setup_ps1_passed": true,
+  "tests_passed": 47,
+  "tests_failed": 0,
+  "relocated_copy_without_output_or_venv": true,
+  "original_workspace_reads_blocked": true,
+  "native_startup_blocked": true,
+  "git_ignored_generated_output": true,
+  "git_tracks_bundled_data": true,
+  "git_frozen_payload_filter_byte_identity": true,
+  "frozen_protocol_bytes_unchanged": true,
+  "original_snapshot_changes": [],
+  "native_solver_tested": false,
+  "license_tested": false,
+  "github_pushed": false
+}

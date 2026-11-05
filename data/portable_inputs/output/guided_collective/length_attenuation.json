@@ -1,0 +1,226 @@
+[
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "samples": 6,
+    "lengths_m": [
+      0.008,
+      0.024,
+      0.048
+    ],
+    "fit": {
+      "alpha_np_m": 0.011777081261299928,
+      "alpha_db_m": 0.10229442809417494,
+      "alpha_db_mm": 0.00010229442809417494,
+      "slope_stderr_np_m": 0.005476727897960634,
+      "r_squared": 0.8221957246959097,
+      "log_amplitude_residual_max": 0.00012647961304663617,
+      "phase_slope_rad_m": -2.303620502136266,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_alpha_np_m": [
+      -0.001003215342013872,
+      0.024665424011567943
+    ],
+    "typical_fit": {
+      "alpha_np_m": 0.011353458978726952,
+      "alpha_db_m": 0.09861489169952087,
+      "alpha_db_mm": 9.861489169952086e-05,
+      "slope_stderr_np_m": 0.005365813720627175,
+      "r_squared": 0.8174176460818036,
+      "log_amplitude_residual_max": 0.00012391815984101948,
+      "phase_slope_rad_m": 0.0,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_typical_alpha_np_m": [
+      -0.0011478969243933668,
+      0.024058814766817597
+    ],
+    "positive_attenuation_identified": false,
+    "exponential_fit_passed": false,
+    "bootstrap_unit": "Matched random-seed family across all tested lengths",
+    "local_alpha_np_m_by_adjacent_interval": [
+      -0.0008708800433668177,
+      0.019155058689031418
+    ]
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "samples": 6,
+    "lengths_m": [
+      0.008,
+      0.024,
+      0.048
+    ],
+    "fit": {
+      "alpha_np_m": 0.014594874029835517,
+      "alpha_db_m": 0.12676946510461282,
+      "alpha_db_mm": 0.00012676946510461283,
+      "slope_stderr_np_m": 0.00015868586015629712,
+      "r_squared": 0.9998817981098546,
+      "log_amplitude_residual_max": 3.664692963103685e-06,
+      "phase_slope_rad_m": -4.818565927586756,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_alpha_np_m": [
+      0.0069341349966507764,
+      0.02188032369560306
+    ],
+    "typical_fit": {
+      "alpha_np_m": 0.014009121523142303,
+      "alpha_db_m": 0.1216816834762556,
+      "alpha_db_mm": 0.0001216816834762556,
+      "slope_stderr_np_m": 0.00017037681794783305,
+      "r_squared": 0.999852111307784,
+      "log_amplitude_residual_max": 3.934684068232323e-06,
+      "phase_slope_rad_m": 0.0,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_typical_alpha_np_m": [
+      0.006533840146368231,
+      0.02167723484913779
+    ],
+    "positive_attenuation_identified": true,
+    "exponential_fit_passed": true,
+    "bootstrap_unit": "Matched random-seed family across all tested lengths",
+    "local_alpha_np_m_by_adjacent_interval": [
+      0.014228404733528004,
+      0.014808647786021048
+    ]
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "samples": 6,
+    "lengths_m": [
+      0.008,
+      0.024,
+      0.048
+    ],
+    "fit": {
+      "alpha_np_m": 0.024530743188155485,
+      "alpha_db_m": 0.2130713280720342,
+      "alpha_db_mm": 0.0002130713280720342,
+      "slope_stderr_np_m": 0.004785947716429271,
+      "r_squared": 0.9633317354717723,
+      "log_amplitude_residual_max": 0.00011052672809631664,
+      "phase_slope_rad_m": -4.643224477245944,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_alpha_np_m": [
+      0.00929904881577255,
+      0.03920864300136602
+    ],
+    "typical_fit": {
+      "alpha_np_m": 0.02303857939290593,
+      "alpha_db_m": 0.20011055802458028,
+      "alpha_db_mm": 0.00020011055802458027,
+      "slope_stderr_np_m": 0.005210913522300369,
+      "r_squared": 0.9513314727500348,
+      "log_amplitude_residual_max": 0.00012034089299295977,
+      "phase_slope_rad_m": 0.0,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_typical_alpha_np_m": [
+      0.007360901787519324,
+      0.03840312549704419
+    ],
+    "positive_attenuation_identified": true,
+    "exponential_fit_passed": true,
+    "bootstrap_unit": "Matched random-seed family across all tested lengths",
+    "local_alpha_np_m_by_adjacent_interval": [
+      0.03558341599778035,
+      0.018083350715876675
+    ]
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "samples": 6,
+    "lengths_m": [
+      0.008,
+      0.024,
+      0.048
+    ],
+    "fit": {
+      "alpha_np_m": 0.06978170941468698,
+      "alpha_db_m": 0.606116226731495,
+      "alpha_db_mm": 0.000606116226731495,
+      "slope_stderr_np_m": 0.014506619643162317,
+      "r_squared": 0.9585738276648497,
+      "log_amplitude_residual_max": 0.00033501603024045125,
+      "phase_slope_rad_m": -10.890865349162153,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_alpha_np_m": [
+      0.021691079261375954,
+      0.1182153631302657
+    ],
+    "typical_fit": {
+      "alpha_np_m": 0.06997116930649912,
+      "alpha_db_m": 0.6077618544426149,
+      "alpha_db_mm": 0.0006077618544426149,
+      "slope_stderr_np_m": 0.015104846367259773,
+      "r_squared": 0.9554740437561442,
+      "log_amplitude_residual_max": 0.0003488314846482143,
+      "phase_slope_rad_m": 0.0,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_typical_alpha_np_m": [
+      0.022050196332368675,
+      0.1185341190322151
+    ],
+    "positive_attenuation_identified": true,
+    "exponential_fit_passed": true,
+    "bootstrap_unit": "Matched random-seed family across all tested lengths",
+    "local_alpha_np_m_by_adjacent_interval": [
+      0.03628010639063124,
+      0.08932431117871498
+    ]
+  }
+]

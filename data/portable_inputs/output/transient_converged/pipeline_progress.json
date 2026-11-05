@@ -1,0 +1,5 @@
+{
+  "stage": "needs_adjustment",
+  "error": "Numerical gates failed. No length/random-seed sweep has been started; inspect validation.json.",
+  "requested_stage": "all"
+}

@@ -1,0 +1,7 @@
+{
+  "frequency": 200000.0,
+  "mode": "A0",
+  "reuse": "verified last-frequency A0 native field",
+  "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\reference_L48_fine\\model.mph",
+  "sha256": "96c563346a6b2c69f778f64c3265b67325a989136bb1c8abf50fa7eb443ac63a"
+}

@@ -1,0 +1,40 @@
+{
+  "engine_sha256": {
+    "detectability_200kHz_L48.py": "49efed667a6f470904ecebfee5c586e67f46940b6fbc6680396c69aadb3af7d8",
+    "detectability_worker.py": "0904445bf797f23896e21cf10af082da94de2b4e6683fd2877e937d92484d2fe",
+    "detectability_followon.py": "c4ca249f853d3edcb94ae114f1a0f9b0288c9560a3939caee2a20383a608a6af",
+    "run_transient.py": "d3d8fdfa69c30ca1682c508b9e41a843d09faf4fb769491de9728b573e5970dd",
+    "cfrp_pores/comsol.py": "d1842990b448f796e5346dc4cb5d5034206a3ac56fabf2252592ce42d9ff4497",
+    "cfrp_pores/transient.py": "211d89dddad335d9140e982fa2af5662f6610a9d964f96cddadf4a6fccc031da",
+    "cfrp_pores/dispersion.py": "69ccf49f4389727e6cdb52e1d9b165c6eedfe9095c1526144755755805fda3e6",
+    "guided_collective.py": "8a2c93b0102e6224c1e1d7b1a5b1d34db18ab356efbcb7e25822b502430eaddc"
+  },
+  "protocol_sha256": "ef5cfadfe1cd5d87839d5eabafa97f8b221c5dd4b095957d0225bc0c66df976d",
+  "native_solves_started": 1,
+  "prepared_at": "2026-10-24T08:31:58.102689+00:00",
+  "band_operator_note": "Absorber damping anchored at 200 kHz for both FD and transient; SAFE source refreshed at every frequency. Existing 200 kHz cached data unchanged.",
+  "resource_policy_sha256": "89877c13201e4fc609ed99f930dd362d365b570c4a8de8060341779bf52f51a8",
+  "scheduling_revision": {
+    "at": "2026-10-24T14:57:47.689849+00:00",
+    "reason": "User authorized starting unsolved 48 mm guided runs while old P-wave work continues",
+    "previous_engine_sha256": {
+      "detectability_200kHz_L48.py": "6615208e05bde720525282e49ebd118925a436a5055852d96da02641c213a2d0",
+      "detectability_worker.py": "17f3f3ef0aca2a3176725de4d5fa9e5095f4624f27c547fdab054be931368bb2"
+    },
+    "new_native_cores": 2,
+    "scientific_protocol_unchanged": true
+  },
+  "resource_policy_revision_at": "2026-10-26T01:07:11.185816+00:00",
+  "idle_scheduling_revision": {
+    "at": "2026-10-24T15:14:45.298362+00:00",
+    "previous_worker_sha256": "7d32a95d20fc531fbd1f9bbe2bce6a4dbf16e73160833e153f9022ace8e55372",
+    "new_worker_sha256": "d1392a12041b442ea3a94972d64c6bb08f8a7e1aa7fca3f46d894ce817b9e39e",
+    "user_requested_idle_only": true,
+    "saved_first_solve_sha256": "5189011660a79b6429842d7673d5e4a1c167940c727054e2d2a307514d8e2992",
+    "priority_fix_at": "2026-10-24T15:16:26.742018+00:00",
+    "priority_fix_worker_sha256": "99ae9d67247ab636d3860cf2997a460a33d482b39914651c529a3c04b63af49e",
+    "heavy_mesh_guard_at": "2026-10-24T15:19:11.734227+00:00",
+    "heavy_mesh_guard_worker_sha256": "0904445bf797f23896e21cf10af082da94de2b4e6683fd2877e937d92484d2fe"
+  },
+  "native_solves_completed": 1
+}

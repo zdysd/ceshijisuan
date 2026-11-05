@@ -1,0 +1,18 @@
+[
+  {
+    "case": "group_seed_101",
+    "level": 2,
+    "absorber": true,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "seconds": 92.44185479998123
+  },
+  {
+    "case": "group_seed_101",
+    "level": 2,
+    "absorber": true,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "seconds": 90.73684509994928
+  }
+]

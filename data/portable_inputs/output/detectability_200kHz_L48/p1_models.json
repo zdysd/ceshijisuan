@@ -1,0 +1,144 @@
+[
+  {
+    "case_id": "reference",
+    "kind": "reference",
+    "geometry_path": null,
+    "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "case_id": "group_seed_101",
+    "kind": "group",
+    "seed": 101,
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101\\geometry\\geometry.json",
+    "geometry_hash": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e"
+  },
+  {
+    "case_id": "group_seed_102",
+    "kind": "group",
+    "seed": 102,
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_102\\geometry\\geometry.json",
+    "geometry_hash": "c2a59f47774eaa39c70fa0bc8e82c45527cc10434eedad211cfa3aa432b9a257"
+  },
+  {
+    "case_id": "group_seed_107",
+    "kind": "group",
+    "seed": 107,
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_107\\geometry\\geometry.json",
+    "geometry_hash": "4b7731a18f129c75cf87e006c6d5c5141534fd048b1b5507fa095b631b04f5c9"
+  },
+  {
+    "case_id": "group_seed_109",
+    "kind": "group",
+    "seed": 109,
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_109\\geometry\\geometry.json",
+    "geometry_hash": "5b6068f2abf87ce027172cc550bdc52b1a7686f15bec9faba2114a120c262e1b"
+  },
+  {
+    "case_id": "single_max_area_center_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_center_r0\\geometry.json",
+    "geometry_hash": "3f152cbf140e259bbf9db06eb5a51cbb3c6073aaca485b782bfda07527f3d7ab"
+  },
+  {
+    "case_id": "single_max_area_upper_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_upper_r0\\geometry.json",
+    "geometry_hash": "6db5e0b005dd7ff8cb362038b129161f520a12fbbffd8dd36fae5c27f9473bc2"
+  },
+  {
+    "case_id": "single_max_area_lower_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_lower_r0\\geometry.json",
+    "geometry_hash": "dbf7e874fbe93f617a216d43655e0a71b511075fcaa9e7ce5b6159b35d6bc853"
+  },
+  {
+    "case_id": "single_max_area_center_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_center_r90\\geometry.json",
+    "geometry_hash": "c6506b31ffcb241858add593effe035b1705a6647f5b1de4b96ba489ff6f08db"
+  },
+  {
+    "case_id": "single_max_area_upper_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_upper_r90\\geometry.json",
+    "geometry_hash": "3f7771ac8be306bf156e04dfc0d0e713adf2af8b8849f758873e974dfffed7d9"
+  },
+  {
+    "case_id": "single_max_area_lower_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_lower_r90\\geometry.json",
+    "geometry_hash": "7f56cf8ccb542c73e5938aa1f3367bcdecc3673c807aea57de17044047250dc7"
+  },
+  {
+    "case_id": "single_max_span_center_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_center_r0\\geometry.json",
+    "geometry_hash": "d19d4f6f5431e5b63d4e17b476408ef4623528b311a3243993f3e5463402d060"
+  },
+  {
+    "case_id": "single_max_span_upper_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_upper_r0\\geometry.json",
+    "geometry_hash": "1b3e1535f6afabd3dc6216f087b39664b55a9ba2140a4f3a62affa2b1a25485a"
+  },
+  {
+    "case_id": "single_max_span_lower_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_lower_r0\\geometry.json",
+    "geometry_hash": "db22ba81f5fe9f6ecc22b2c3519c3fb001787ee77588bec410be0c55552da6ab"
+  },
+  {
+    "case_id": "single_max_span_center_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_center_r90\\geometry.json",
+    "geometry_hash": "227e353810132aa4132b6fe07790f6200c94066ad5a8c3fdaf7163d4510d11e7"
+  },
+  {
+    "case_id": "single_max_span_upper_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_upper_r90\\geometry.json",
+    "geometry_hash": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1"
+  },
+  {
+    "case_id": "single_max_span_lower_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_lower_r90\\geometry.json",
+    "geometry_hash": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71"
+  },
+  {
+    "case_id": "single_strongest_development_response_center_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_center_r0\\geometry.json",
+    "geometry_hash": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3"
+  },
+  {
+    "case_id": "single_strongest_development_response_upper_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_upper_r0\\geometry.json",
+    "geometry_hash": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609"
+  },
+  {
+    "case_id": "single_strongest_development_response_lower_r0",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_lower_r0\\geometry.json",
+    "geometry_hash": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150"
+  },
+  {
+    "case_id": "single_strongest_development_response_center_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_center_r90\\geometry.json",
+    "geometry_hash": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4"
+  },
+  {
+    "case_id": "single_strongest_development_response_upper_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_upper_r90\\geometry.json",
+    "geometry_hash": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e"
+  },
+  {
+    "case_id": "single_strongest_development_response_lower_r90",
+    "kind": "single",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_lower_r90\\geometry.json",
+    "geometry_hash": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4"
+  }
+]

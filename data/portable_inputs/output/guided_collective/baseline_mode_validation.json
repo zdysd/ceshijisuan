@@ -1,0 +1,50 @@
+[
+  {
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "comsol_phase_velocity_m_s": 2299.9725907817055,
+    "safe_phase_velocity_m_s": 2299.9725939112354,
+    "relative_phase_velocity_difference": 1.3606813453748146e-09,
+    "unintended_forward_mode_ratio": 1.8546372091367182e-07
+  },
+  {
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "comsol_phase_velocity_m_s": 445.9095255593942,
+    "safe_phase_velocity_m_s": 445.9048394935998,
+    "relative_phase_velocity_difference": 1.0509116249224348e-05,
+    "unintended_forward_mode_ratio": 5.478735605297773e-05
+  },
+  {
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "comsol_phase_velocity_m_s": 2299.5200359368446,
+    "safe_phase_velocity_m_s": 2299.5200442815335,
+    "relative_phase_velocity_difference": 3.6288828608732615e-09,
+    "unintended_forward_mode_ratio": 7.864627550227891e-07
+  },
+  {
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "comsol_phase_velocity_m_s": 616.3396844038314,
+    "safe_phase_velocity_m_s": 616.3322760486034,
+    "relative_phase_velocity_difference": 1.2020066960438669e-05,
+    "unintended_forward_mode_ratio": 0.00010991605605912861
+  },
+  {
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "comsol_phase_velocity_m_s": 2297.655949981464,
+    "safe_phase_velocity_m_s": 2297.655968879844,
+    "relative_phase_velocity_difference": 8.225069514367078e-09,
+    "unintended_forward_mode_ratio": 3.2954410255460333e-06
+  },
+  {
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "comsol_phase_velocity_m_s": 835.0216087561148,
+    "safe_phase_velocity_m_s": 835.0081283030989,
+    "relative_phase_velocity_difference": 1.6144097954251535e-05,
+    "unintended_forward_mode_ratio": 0.00022281223051219955
+  }
+]

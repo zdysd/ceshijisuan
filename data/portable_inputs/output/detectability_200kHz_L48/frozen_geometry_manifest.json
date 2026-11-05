@@ -1,0 +1,392 @@
+[
+  {
+    "seed": 113,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_113\\geometry.json",
+    "geometry_hash": "5df027866c85170c750c2131386b37f7746e05d66617c16278e0e0132b9c5d49",
+    "file_sha256": "e77d7b96213a1e4a1b718bf344e6f26ee375d2f2d5a1239c4d739f5595990d2a",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999996,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 114,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_114\\geometry.json",
+    "geometry_hash": "9d359d88c340d699556356e601082b1583a61cf2d3b5592d3aea208c9a4fa108",
+    "file_sha256": "c7b0098e3eb01e159c4a20f4660b9df426b654c8bc9a0be88263cbfbfe72ce41",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000012,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 115,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_115\\geometry.json",
+    "geometry_hash": "8207d04905775748ee2a6b066bd6ba873c807085df275cecda4387b3df2d2329",
+    "file_sha256": "136000532992611ebef5b340ac56dfa796439ac2a1f3c3cb5a8bf77cfe253717",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999996,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 116,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_116\\geometry.json",
+    "geometry_hash": "54c338d7f049c52171f7b8d1afa2f7ef7b0b4bfa8b938b80ccd25c857d452d54",
+    "file_sha256": "223937b563839a1e61dd14dc0ae97f6ac9133385d6eeeb787d465d8443da1a61",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999984,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 117,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_117\\geometry.json",
+    "geometry_hash": "ccaa8945d0cc6e6d0abe4d937294ae0f5b609a444da128f0f50cc2c87dc119a5",
+    "file_sha256": "758d94380846bc4e725e18c805697aff202e1f5ecb0d371b14420a2e73df3c64",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.01500000000000001,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 118,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_118\\geometry.json",
+    "geometry_hash": "ae930dd335494f16bd51bd0059e2fa911df66b0948f1bdf7e31966a05d7df034",
+    "file_sha256": "9e8a92b6a9b8010e8a7a97a1305e2b2d8aceacc0884114fff0c99010009d40f1",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999998,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 119,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_119\\geometry.json",
+    "geometry_hash": "d10deb2fcd5fbfb8eb9c01c7acb0201407104cfdb92bc8a1eaaa4edf5807ee27",
+    "file_sha256": "5aaabb10c1c6a6d4c561872c2850c83767de32ef12e04376b9211a8bdc31a8d1",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999998,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 120,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_120\\geometry.json",
+    "geometry_hash": "71ec6dc7ff76d619159692b896a0e2645d07bfb59c9c618aef4a30f33aced64b",
+    "file_sha256": "7602df2d247e6dd64142fbaff4f3c224c1122c7393790df8c4e5a200af9ab24d",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000015,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 121,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_121\\geometry.json",
+    "geometry_hash": "17fc14c925d8a15980e5b634cd5cd2c6620270c7ad625b8a51350d16a5f7a922",
+    "file_sha256": "046c23381916b39949489d573d94125f36b3ca90574ab2e10289836070d2e6f0",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 122,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_122\\geometry.json",
+    "geometry_hash": "0fba755ba07f6c7e0959ab6e4a0e8cbf325aaca324f704946b382bd40a9bb0e6",
+    "file_sha256": "1b058419602886d596143a12ee46be4f599258e736ae073ec5737dfecf029eb9",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999998,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 123,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_123\\geometry.json",
+    "geometry_hash": "c689ada26acc499eb2bec4f1b14dfec8cb985fbe5ea00386fa8708103e886d79",
+    "file_sha256": "6bb4df83fa4b9d7137a5d1bf032016d4e0a7882dd7d21a58ea87a6befa537894",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000003,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 124,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_124\\geometry.json",
+    "geometry_hash": "aa20c48842ad5555821407c723c8b5cd31dcd9406f3b0f25189dda48d9885dcb",
+    "file_sha256": "fa41a53a6b3f50ee4dea854b85622e9b7d99688b560952c6970b888739ea4916",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000005,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 125,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+    "geometry_hash": "3b088394a420c8efc11a6e5b9eeefd8000e95bff72181df2a6867fb670c5064c",
+    "file_sha256": "9606042e038dac897e19b2986e2fb170ecc9432c321f3183fe87e8b1b84b9dd1",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999998,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 126,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_126\\geometry.json",
+    "geometry_hash": "08c6eb118fef5a24dfba8b4d9b246078679cf92b421cf655c40b2152a431564c",
+    "file_sha256": "a8d5c25760ebc2591b8434dc8375420cedef9ec793cc0ad76ffc427c07ec7106",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000005,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 127,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_127\\geometry.json",
+    "geometry_hash": "5302fbf581a0bbeef36ce44c2ac46b7b41fb4bf8a41a603ff00b7e8158b56a24",
+    "file_sha256": "6e83c7bc528a02219fc84daca96c4a294d732e75d6d9eae231414dddbbefda5d",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000012,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 128,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_128\\geometry.json",
+    "geometry_hash": "a83ef7eda0680976129094a9880c9ae90062c11b99033a16aa54e61b3399ffc0",
+    "file_sha256": "080b1a3049d14e47e15ec39a1489260391f5103b14b19401f07877e43a2ac077",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000015,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 129,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_129\\geometry.json",
+    "geometry_hash": "2d95300c1d61393c60c7bc95e96ab13083757a7254b6b3721952f3be46b24cab",
+    "file_sha256": "3d98200f9f627ef98bb26704cad9dbe971c8dfe3a31f805c8e2c610a1f410c98",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999996,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 130,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_130\\geometry.json",
+    "geometry_hash": "1513e85e6e8ca3c0a3b182dc706a027d594308993938d5181cdecd1b90afbda1",
+    "file_sha256": "7fd5b8ff07a4d495d52f8cf722ecfcffd4e1c665d5cdda8b72649932f3becb15",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.01500000000000001,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 131,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_131\\geometry.json",
+    "geometry_hash": "a45fbeec808627502d1535458f9d1b6fca441763704f8ed4027397d0dec58529",
+    "file_sha256": "deed270b43ae598c476cab87a7d80dddc99d54b214dd289fc5a234dc90e6cc4c",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.01499999999999999,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 132,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_132\\geometry.json",
+    "geometry_hash": "315b4792aa51df409f59ac25fb76781faa2ece1379fbebb602b6bf1b81c44e37",
+    "file_sha256": "9786d1c56ab4a641864a146234289358532823d494b6d6fdba683594528ec0d4",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999986,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 133,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_133\\geometry.json",
+    "geometry_hash": "48f96f027fe3aa465d8f8a2f9b142ac8ec1d14f73b708fe5dc7a7afe44fc0d20",
+    "file_sha256": "e731f5cedfa8009bd3a7e9eeffbe5a186d26c063a515a75d92cbbc198164e275",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 134,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_134\\geometry.json",
+    "geometry_hash": "94b1fffdf7080fb16c2e2adbe0ca89a53b42f5c1ce05a0795044ac7ee6ebc566",
+    "file_sha256": "fb281a718a3bd007910030c01c53953b12f4ef21d6c8677bf9aa7322e5f06cfe",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999987,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 135,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_135\\geometry.json",
+    "geometry_hash": "886bfd42d2760ebe3fec65de30156aefcfb868c3208654f701b927a9eb7fd917",
+    "file_sha256": "ae66a11ef021e3e8c2f3ecf005da207196f70ee0cf9aa5777f0d35935bbeeb9d",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000017,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 136,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_136\\geometry.json",
+    "geometry_hash": "21aacee09280d5137140e1e362027c3936574d5f4d1ecb0a660fc3f552363bbd",
+    "file_sha256": "52d83f0ed0169b52e14d053a93424eace1d39580b5d1d4031d4753069093d09d",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.01499999999999999,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 137,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_137\\geometry.json",
+    "geometry_hash": "bc18a3dce520cad71d863dae870c4707bb94cc97f36bf726ac4a5078cd4708c0",
+    "file_sha256": "e2112683f89281913c31c1435d5437010f6e4b8e6344a46097d81db9397524cb",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.01499999999999999,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 138,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_138\\geometry.json",
+    "geometry_hash": "b32d4a19ddc1951b90c3d72af2ed5e12313ae1a94320e054336a46f71435c45e",
+    "file_sha256": "4e0e80678d2f3282915784cadd9e20f20becc2364698a9a3150f7804eadcc8ca",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999987,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 139,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_139\\geometry.json",
+    "geometry_hash": "849b9622904d414b7ce98cdf0f29f55725a11d385be39a5d68b0bc187ee33674",
+    "file_sha256": "37688b136fcf6abf8d77dca348c5665b16667b0a9d8ba7cacbcfeaaf5a778521",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999963,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 140,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_140\\geometry.json",
+    "geometry_hash": "af7f585d0b9139b177babb0c1f59d27e8ee3cccc0b8a458254c775ad3ea71df4",
+    "file_sha256": "5dc8bb4612f8a2a06b247c3b5a5840adb95f670fb579a71ca9ceb8f2773a4e7e",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.014999999999999993,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 141,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_141\\geometry.json",
+    "geometry_hash": "9af38e41014c0e03c8ecaad7da46d6f7ba157e5de812e24747b144a0d84e476a",
+    "file_sha256": "212034d8ef0b2ad0408ee1e29af7f17eb365c32747fa275dfdd4b5f39cba41e5",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  },
+  {
+    "seed": 142,
+    "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_142\\geometry.json",
+    "geometry_hash": "6cdbc1aba3cfc8aba650af41aba8fd547179592e22e6022b605caab1c02b1431",
+    "file_sha256": "df8c1f83ec4b44e04b7d5cf139a11d1bb7bceed79093869b59e2075649c354e8",
+    "audit": {
+      "passed": true,
+      "pore_count": 141,
+      "area_fraction": 0.015000000000000005,
+      "overlaps": [],
+      "all_strictly_inside": true
+    }
+  }
+]

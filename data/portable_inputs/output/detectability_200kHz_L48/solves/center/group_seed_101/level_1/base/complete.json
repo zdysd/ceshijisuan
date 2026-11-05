@@ -1,0 +1,25 @@
+{
+  "signature_sha256": "abc162b36e003b675f1f68ad567628af3755db80e90a4321df951b93d7255611",
+  "geometry": {
+    "pore_count": 141,
+    "actual_area_m2": 7.199995101102481e-07,
+    "expected_area_m2": 7.199999999999999e-07,
+    "absolute_area_fraction_error": 1.020603649494373e-08,
+    "boundary_selections": {}
+  },
+  "legacy_sources": [
+    {
+      "frequency": 200000.0,
+      "mode": "A0",
+      "reuse": "verified last-frequency A0 native field",
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\d80_L48_fine\\model.mph",
+      "sha256": "9f44d946985331c68dbd5e9e3b6d07587b5989f7d4f1e4d65fc27613bad76016"
+    }
+  ],
+  "finished_at": "2026-10-24T17:36:39.947525+00:00",
+  "absorber_anchor_frequency_hz": 200000.0,
+  "launch_sha256": {
+    "200000_A0.npz": "25c1da39876e5cd199a130a050007077c7e0daaa76f0fb47c8ea64f3215e46be",
+    "200000_S0.npz": "0de38bae77d35af2f5ce1fc3f9a6f5d5e78b01f614ef78635035ac0dba8a7aa1"
+  }
+}

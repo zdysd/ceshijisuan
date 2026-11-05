@@ -1,0 +1,11 @@
+{
+  "native_solves_started": 0,
+  "reused_center_models": [
+    "reference",
+    "group_seed_101",
+    "group_seed_102",
+    "group_seed_107",
+    "group_seed_109"
+  ],
+  "method": "Copied compatible existing dual-source port records; no JVM or native solve"
+}

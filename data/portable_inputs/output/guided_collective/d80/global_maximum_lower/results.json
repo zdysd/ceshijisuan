@@ -1,0 +1,318 @@
+{
+  "fingerprint": "bd0a065d2821e9ed2f3261888c12356f3cdc59f75b7525c9745cf3826a4dffac",
+  "signature": {
+    "geometry_hash": "3a8178c497ff1b78af5f2e48d4a7a6af271a768083656f8c04c6b0bca9bb47b2",
+    "frequencies": [
+      50000.0,
+      100000.0,
+      200000.0
+    ],
+    "mesh": 0.00015,
+    "material": {
+      "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+      "material_status": "illustrative_completion_not_measured_CFRP",
+      "density_kg_m3": 1815,
+      "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+        [
+          10.478,
+          3.029,
+          4.0,
+          0,
+          0,
+          0
+        ],
+        [
+          3.029,
+          10.478,
+          4.0,
+          0,
+          0,
+          0
+        ],
+        [
+          4.0,
+          4.0,
+          135.0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          5.0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          5.0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7.17
+        ]
+      ],
+      "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+      "porosity_fractions": [
+        0,
+        0.001,
+        0.005,
+        0.01,
+        0.02,
+        0.03,
+        0.04,
+        0.05
+      ],
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "pore_roi_um": [
+        1000,
+        1000
+      ],
+      "pixel_um": 2.0,
+      "correlation_lengths_um": [
+        20.0,
+        10.0
+      ],
+      "orientation_deg": 0,
+      "geometry_porosity_absolute_tolerance": 0.0001,
+      "bulk_frequencies_hz": [
+        1000000,
+        2500000,
+        5000000,
+        7500000,
+        10000000
+      ],
+      "guided_frequencies_hz": [
+        100000,
+        200000,
+        300000
+      ],
+      "plate_thickness_m": 0.001,
+      "relative_alpha_tolerance": 0.05,
+      "near_zero_cumulative_tolerance_np": 0.01,
+      "confidence_level": 0.95,
+      "baseline_damping": 0
+    },
+    "layout": [
+      0.09199890375644942,
+      0.15399835563467412,
+      0.33799616314757297
+    ],
+    "solver_schema": "uniform_ports_2source_matrix_v1",
+    "absolute_repair_tolerance_m": 1e-09
+  },
+  "results": [
+    {
+      "frequency_hz": 50000.0,
+      "modes": [
+        "S0",
+        "A0"
+      ],
+      "transmission_real": [
+        [
+          0.9999864018461901,
+          0.000816611199302439
+        ],
+        [
+          -0.0022531223378989256,
+          0.9999513604793109
+        ]
+      ],
+      "transmission_imag": [
+        [
+          -0.0009878280751117329,
+          -0.0017028011255997744
+        ],
+        [
+          -0.0046349486888681325,
+          -0.006240723364362942
+        ]
+      ],
+      "reflection_real": [
+        [
+          0.001837190317477935,
+          0.001291313546343541
+        ],
+        [
+          0.003590357399389843,
+          0.0013263493702050792
+        ]
+      ],
+      "reflection_imag": [
+        [
+          0.0008976631884474998,
+          0.0017176816343041719
+        ],
+        [
+          0.004679995442339002,
+          0.006129673756201007
+        ]
+      ],
+      "right_incoming_ratio_max": 6.258416877200467e-05,
+      "uniform_port_residual_max": 0.0022698303417037755,
+      "energy_balance_by_incident_mode": [
+        1.000001278257491,
+        1.000002536358602
+      ],
+      "modal_power_flux": [
+        205903974062547.56,
+        78255665269666.3
+      ],
+      "wavelength_m": [
+        0.04599945188431291,
+        0.008918096792040161
+      ]
+    },
+    {
+      "frequency_hz": 100000.0,
+      "modes": [
+        "S0",
+        "A0"
+      ],
+      "transmission_real": [
+        [
+          0.9999565314354218,
+          0.0032435248640441004
+        ],
+        [
+          -0.005924001773488156,
+          0.9999003205852531
+        ]
+      ],
+      "transmission_imag": [
+        [
+          -0.0019670780329387725,
+          0.0020273468144670743
+        ],
+        [
+          0.004215822507332133,
+          -0.008793644625765946
+        ]
+      ],
+      "reflection_real": [
+        [
+          0.003295083938183411,
+          0.00012149303044186891
+        ],
+        [
+          0.0002407569182994161,
+          -0.007365006551761387
+        ]
+      ],
+      "reflection_imag": [
+        [
+          -0.002422713999587966,
+          0.0044100587109569146
+        ],
+        [
+          0.008755983101257728,
+          -0.004709810174303895
+        ]
+      ],
+      "right_incoming_ratio_max": 6.327510761830342e-05,
+      "uniform_port_residual_max": 0.0032167639239567654,
+      "energy_balance_by_incident_mode": [
+        1.0000005592308185,
+        1.0000204504567398
+      ],
+      "modal_power_flux": [
+        822331667562710.0,
+        424503343691385.9
+      ],
+      "wavelength_m": [
+        0.022995200449495094,
+        0.006163322760755221
+      ]
+    },
+    {
+      "frequency_hz": 200000.0,
+      "modes": [
+        "S0",
+        "A0"
+      ],
+      "transmission_real": [
+        [
+          0.9998646669793247,
+          0.004678712236893529
+        ],
+        [
+          -0.006746270765115092,
+          0.9997791647369182
+        ]
+      ],
+      "transmission_imag": [
+        [
+          -0.0039047629767790006,
+          -0.005317886107204063
+        ],
+        [
+          -0.007903937019406972,
+          -0.012302495348960198
+        ]
+      ],
+      "reflection_real": [
+        [
+          -0.007919691302045286,
+          -0.005519933524192276
+        ],
+        [
+          -0.008188210378758908,
+          0.00012403441681257943
+        ]
+      ],
+      "reflection_imag": [
+        [
+          -0.0017684091047412214,
+          -0.006980920897011611
+        ],
+        [
+          -0.010537655211116237,
+          -0.012306122861365835
+        ]
+      ],
+      "right_incoming_ratio_max": 8.482621085060154e-05,
+      "uniform_port_residual_max": 0.004591471950130025,
+      "energy_balance_by_incident_mode": [
+        1.000005038741193,
+        1.0000513810805716
+      ],
+      "modal_power_flux": [
+        3268155956912997.0,
+        2223038702857299.5
+      ],
+      "wavelength_m": [
+        0.01148827984435569,
+        0.0041750406415508945
+      ]
+    }
+  ],
+  "dofs": 174022,
+  "mesh_elements": 41217,
+  "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+  "requested_void_area_m2": 7.778022806876324e-09,
+  "measured_void_area_m2": 7.778187158079134e-09,
+  "measured_void_area_method": "Direct tiny-pore object area; avoids subtractive cancellation",
+  "finite_voids": 1,
+  "material_status": "illustrative_completion_not_measured_CFRP"
+}

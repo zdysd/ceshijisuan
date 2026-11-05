@@ -1,0 +1,18 @@
+[
+  {
+    "case": "reference",
+    "level": 3,
+    "absorber": true,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "seconds": 1356.0310479999753
+  },
+  {
+    "case": "reference",
+    "level": 3,
+    "absorber": true,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "seconds": 1350.1639993999852
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "case_id": "single_max_area_upper_r0",
+  "kind": "single",
+  "level": 1,
+  "controls": {
+    "mesh": {
+      "magnitude_delta": [
+        1.9125194337110685e-06,
+        1.8802150446695087e-05
+      ],
+      "phase_deg": [
+        0.00015620255861242932,
+        0.0025289714593868724
+      ],
+      "relative_loss_change": [
+        0.01454060469459345,
+        0.10067975418558518
+      ],
+      "passed": true
+    },
+    "absorber": {
+      "magnitude_delta": [
+        2.536858088042493e-07,
+        2.723079862820832e-06
+      ],
+      "phase_deg": [
+        4.4609173320993604e-05,
+        0.00019862360017229921
+      ],
+      "relative_loss_change": [
+        0.001953371656380318,
+        0.015954955955110133
+      ],
+      "passed": true
+    },
+    "ports": {
+      "magnitude_delta": [
+        1.620621081777074e-08,
+        1.4364682504597326e-06
+      ],
+      "phase_deg": [
+        3.991310987436016e-07,
+        1.560054059623852e-05
+      ],
+      "relative_loss_change": [
+        0.00012503147673058662,
+        0.008552956910125292
+      ],
+      "passed": true
+    }
+  },
+  "u_num": [
+    2.1824114533330885e-06,
+    2.2961698559975652e-05
+  ],
+  "loss": [
+    0.00012961704717517897,
+    0.00016794989914648006
+  ],
+  "score": [
+    0.00012961704717517897,
+    0.00016794989914648006
+  ],
+  "numerical_passed": true,
+  "threshold_margin_resolved": true,
+  "single_control_passed": true,
+  "passed": true,
+  "contour_scope": "fixed upstream polygon geometry",
+  "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r0\\level_1\\base"
+}

@@ -1,0 +1,25 @@
+{
+  "signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+  "geometry": null,
+  "legacy_sources": [
+    {
+      "frequency": 200000.0,
+      "mode": "S0",
+      "reuse": "new native solve",
+      "signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e"
+    },
+    {
+      "frequency": 200000.0,
+      "mode": "A0",
+      "reuse": "verified last-frequency A0 native field",
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\reference_L48_fine\\model.mph",
+      "sha256": "96c563346a6b2c69f778f64c3265b67325a989136bb1c8abf50fa7eb443ac63a"
+    }
+  ],
+  "finished_at": "2026-10-24T17:27:30.836641+00:00",
+  "absorber_anchor_frequency_hz": 200000.0,
+  "launch_sha256": {
+    "200000_A0.npz": "e2d1044d3b12ec9861a385461348376e53ebf0d30a56ad152d3dc1e61385cb93",
+    "200000_S0.npz": "5189011660a79b6429842d7673d5e4a1c167940c727054e2d2a307514d8e2992"
+  }
+}

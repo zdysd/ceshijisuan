@@ -1,0 +1,27 @@
+{
+  "spec": {
+    "size_um": [
+      1000,
+      1000
+    ],
+    "pixel_um": 2.0,
+    "correlation_um": [
+      20.0,
+      10.0
+    ],
+    "porosity": 0.015,
+    "seed": 101,
+    "angle_deg": 0
+  },
+  "pixel_porosity": 0.015,
+  "pore_count": 125,
+  "boundary_pore_count": 5,
+  "diameter_mean_um": 11.043499194591732,
+  "diameter_p95_um": 20.13427812906253,
+  "diameter_max_um": 31.915382432114615,
+  "nearest_neighbor_mean_um": 49.00951216283506,
+  "quadrat_variance_to_mean": 0.9253333333333333,
+  "vector_porosity": 0.015025878372479498,
+  "vector_threshold": -2.200524622904919,
+  "vector_pore_count": 127
+}

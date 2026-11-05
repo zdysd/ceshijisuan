@@ -1,0 +1,54 @@
+[
+  {
+    "mode": "A0",
+    "case": "no_pore",
+    "frequency_hz": 200000,
+    "pre_residual_max": 0.0034473480749246488,
+    "post_residual_max": 0.0034522201416665945,
+    "refined_post_residual_max": 0.003445438193968765,
+    "post_backward_forward_ratio_max": 0.0002826799388107155,
+    "projection_relative_amplitude_difference": 0.0001326971322271886,
+    "transmission_magnitude_mean": 1.0,
+    "amplitude_reduction": 0.0,
+    "note": "Uniform-port extraction with phase correction before averaging incident amplitudes."
+  },
+  {
+    "mode": "A0",
+    "case": "random_pores",
+    "frequency_hz": 200000,
+    "pre_residual_max": 0.0036310284655207622,
+    "post_residual_max": 0.003646154665338704,
+    "refined_post_residual_max": 0.0036373558271861526,
+    "post_backward_forward_ratio_max": 0.00029505914693116257,
+    "projection_relative_amplitude_difference": 0.00013465275336221882,
+    "transmission_magnitude_mean": 0.9969838468760841,
+    "amplitude_reduction": 0.00301615312391581,
+    "note": "Uniform-port extraction with phase correction before averaging incident amplitudes."
+  },
+  {
+    "mode": "S0",
+    "case": "no_pore",
+    "frequency_hz": 200000,
+    "pre_residual_max": 0.00012065973888390512,
+    "post_residual_max": 0.00012042161842046516,
+    "refined_post_residual_max": 0.00012079766582342386,
+    "post_backward_forward_ratio_max": 0.00917538016558724,
+    "projection_relative_amplitude_difference": 9.418983777376155e-07,
+    "transmission_magnitude_mean": 1.0,
+    "amplitude_reduction": 4.4408920985006264e-17,
+    "note": "Uniform-port extraction with phase correction before averaging incident amplitudes."
+  },
+  {
+    "mode": "S0",
+    "case": "random_pores",
+    "frequency_hz": 200000,
+    "pre_residual_max": 0.0009922252986226071,
+    "post_residual_max": 0.00031385525927354364,
+    "refined_post_residual_max": 0.0003144791628728951,
+    "post_backward_forward_ratio_max": 0.009173243192356994,
+    "projection_relative_amplitude_difference": 1.2063302055054237e-06,
+    "transmission_magnitude_mean": 0.9957807778619758,
+    "amplitude_reduction": 0.004219222138024148,
+    "note": "Uniform-port extraction with phase correction before averaging incident amplitudes."
+  }
+]

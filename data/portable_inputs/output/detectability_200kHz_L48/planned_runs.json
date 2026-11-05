@@ -1,0 +1,2905 @@
+{
+  "P1": [
+    {
+      "case": "reference",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "2d301ecdc685a5b0110e9ea2446b84eaae58710cfceb84055333f840af4d6513",
+      "status": "compatible_data_reused",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\reference\\level_0\\base"
+    },
+    {
+      "case": "reference",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "16f2899d8721de54fc597640e9d35947ab8e2a8b3eca318ea4f18186a4632c02",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\reference\\level_1\\base"
+    },
+    {
+      "case": "reference",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "93b1db9e8a0def399c7ee4eb867ea6a58d6b98a202b7a5a31f1782eeae515f31",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\reference\\level_1\\absorber"
+    },
+    {
+      "case": "group_seed_101",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "fabdd15659ef8489c3242ae8f367ff839ea5f388a6c14318f5e714551a38c5d3",
+      "status": "compatible_data_reused",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_101\\level_0\\base"
+    },
+    {
+      "case": "group_seed_101",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "bedf2e73e1159559e079f43913de586bb09b949d2e30e3b001d133150554ed38",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_101\\level_1\\base"
+    },
+    {
+      "case": "group_seed_101",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "87bee98eb34f0123829ca7b673c316510d65dfd99a619c0e44d0160b6ce0c8bc",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_101\\level_1\\absorber"
+    },
+    {
+      "case": "group_seed_102",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "c2a59f47774eaa39c70fa0bc8e82c45527cc10434eedad211cfa3aa432b9a257",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "00af02444d5f7148ace743d6a75ed6b42578bcee55d2147ba6fb01aa8f7acc83",
+      "status": "compatible_data_reused",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_102\\level_0\\base"
+    },
+    {
+      "case": "group_seed_102",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "c2a59f47774eaa39c70fa0bc8e82c45527cc10434eedad211cfa3aa432b9a257",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "143cd334e9807db2f059a9d13e3fa930d8942b33ab1147bd3695fb7b20e25bae",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_102\\level_1\\base"
+    },
+    {
+      "case": "group_seed_102",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "c2a59f47774eaa39c70fa0bc8e82c45527cc10434eedad211cfa3aa432b9a257",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "7fada966b558da99347998910c302114fd65afa80352de2d355faab056de87ef",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_102\\level_1\\absorber"
+    },
+    {
+      "case": "group_seed_107",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "4b7731a18f129c75cf87e006c6d5c5141534fd048b1b5507fa095b631b04f5c9",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "6eef7609f69dda28c2605881f88dc7a334292e3f7fe9462e4c8a4459563c6670",
+      "status": "compatible_data_reused",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_107\\level_0\\base"
+    },
+    {
+      "case": "group_seed_107",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "4b7731a18f129c75cf87e006c6d5c5141534fd048b1b5507fa095b631b04f5c9",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "09d3ebfb7e1c08f4259f5292d3a967ba704bbd2d171e71ec5fc56e495587f95b",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_107\\level_1\\base"
+    },
+    {
+      "case": "group_seed_107",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "4b7731a18f129c75cf87e006c6d5c5141534fd048b1b5507fa095b631b04f5c9",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "26c05632fb51413114ad78b6c1620733a8ddfb70632111c49561261d163a8083",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_107\\level_1\\absorber"
+    },
+    {
+      "case": "group_seed_109",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "5b6068f2abf87ce027172cc550bdc52b1a7686f15bec9faba2114a120c262e1b",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "797d428658faa849def92a8055ebcfd81976879034caa18d250d3d7528eb3e69",
+      "status": "compatible_data_reused",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_109\\level_0\\base"
+    },
+    {
+      "case": "group_seed_109",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "5b6068f2abf87ce027172cc550bdc52b1a7686f15bec9faba2114a120c262e1b",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "a4d9904433ddf5f5803124ee76a821a4a1d2a4072cf483c63fc5a93a74388be5",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_109\\level_1\\base"
+    },
+    {
+      "case": "group_seed_109",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "5b6068f2abf87ce027172cc550bdc52b1a7686f15bec9faba2114a120c262e1b",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "8474300bb2e3f019b7dd1777e247cac8bbd1fddd2963321b2bcd968225fc903a",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\group_seed_109\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_area_center_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "3f152cbf140e259bbf9db06eb5a51cbb3c6073aaca485b782bfda07527f3d7ab",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "ca00ae9d21a61110375852e1e12389ecf186e8ea64de30988ce51f28a6d0f14b",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_center_r0\\level_0\\base"
+    },
+    {
+      "case": "single_max_area_center_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "3f152cbf140e259bbf9db06eb5a51cbb3c6073aaca485b782bfda07527f3d7ab",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "5f2a5729ca5385ea13a540042586b03045f399bcae6706f565464913f8b4c108",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_center_r0\\level_1\\base"
+    },
+    {
+      "case": "single_max_area_center_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "3f152cbf140e259bbf9db06eb5a51cbb3c6073aaca485b782bfda07527f3d7ab",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "2dfe925d6ae664ecefdf6115ab0d4810e2bc33663cc0aa5d5a4ef5058b4f078c",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_center_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_area_upper_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "6db5e0b005dd7ff8cb362038b129161f520a12fbbffd8dd36fae5c27f9473bc2",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "6a7442967e1f5781e3f0f3d75bfba5e461a760d886b290f8bb394e5cdb51d88c",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r0\\level_0\\base"
+    },
+    {
+      "case": "single_max_area_upper_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "6db5e0b005dd7ff8cb362038b129161f520a12fbbffd8dd36fae5c27f9473bc2",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "ec6bd25640771a4d28875c5860137d13b6b701b9ffb00fb37c512e1703555c32",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r0\\level_1\\base"
+    },
+    {
+      "case": "single_max_area_upper_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "6db5e0b005dd7ff8cb362038b129161f520a12fbbffd8dd36fae5c27f9473bc2",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "68700339684497824184262b961a4c2ead8384fa45713a3cf965a93b1c0aab72",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_area_lower_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "dbf7e874fbe93f617a216d43655e0a71b511075fcaa9e7ce5b6159b35d6bc853",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "cd168886201bcadc5f6c416dec2e6745fd946df74ff4fc6b43c5ee8c2845feaf",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_lower_r0\\level_0\\base"
+    },
+    {
+      "case": "single_max_area_lower_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "dbf7e874fbe93f617a216d43655e0a71b511075fcaa9e7ce5b6159b35d6bc853",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "a73fb0456549e072c1039a41a1049abc7b4937490fc14279302d9fd0e95443ca",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_lower_r0\\level_1\\base"
+    },
+    {
+      "case": "single_max_area_lower_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "dbf7e874fbe93f617a216d43655e0a71b511075fcaa9e7ce5b6159b35d6bc853",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "4d09398b1b9d75b6ace6cca5c3676293bbad17f0c073ff7bfeb3aa253c8f064f",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_lower_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_area_center_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "c6506b31ffcb241858add593effe035b1705a6647f5b1de4b96ba489ff6f08db",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "fba11d5e77d9db94cc75208f1d5d53def7e4e70c54a78b1734cb43fba1994943",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_center_r90\\level_0\\base"
+    },
+    {
+      "case": "single_max_area_center_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "c6506b31ffcb241858add593effe035b1705a6647f5b1de4b96ba489ff6f08db",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "e1a82d229151618fb6427621d10a716e91ac027b0b0aab37cd2a7867c677f66d",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_center_r90\\level_1\\base"
+    },
+    {
+      "case": "single_max_area_center_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "c6506b31ffcb241858add593effe035b1705a6647f5b1de4b96ba489ff6f08db",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "3e464bc85548b695b74d0a7631d6bcbdc0b1e5ede5df302ec7a5145034449145",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_center_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_area_upper_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "3f7771ac8be306bf156e04dfc0d0e713adf2af8b8849f758873e974dfffed7d9",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "c5c64042407eee20b63c903c0f8b59cd8d3e45ca91609438744aefd4e21fe997",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r90\\level_0\\base"
+    },
+    {
+      "case": "single_max_area_upper_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "3f7771ac8be306bf156e04dfc0d0e713adf2af8b8849f758873e974dfffed7d9",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "9924a55a44f48c5c308b8579549f4be77ad3e6e9c790ab22b3011a1dfd0e4582",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r90\\level_1\\base"
+    },
+    {
+      "case": "single_max_area_upper_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "3f7771ac8be306bf156e04dfc0d0e713adf2af8b8849f758873e974dfffed7d9",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "60ecb36e92f7f02f1fccdd6c2bfe4de2c961d5271d81c7304b1d1c861542811c",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_upper_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_area_lower_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "7f56cf8ccb542c73e5938aa1f3367bcdecc3673c807aea57de17044047250dc7",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "3960cf7bf3104534489b41b82def88b11cceef462a5b37da0a5fa918732f2398",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_lower_r90\\level_0\\base"
+    },
+    {
+      "case": "single_max_area_lower_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "7f56cf8ccb542c73e5938aa1f3367bcdecc3673c807aea57de17044047250dc7",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "5391073e7fb69fcc2bee7b5d5c2e8c0d839d7d4c4375a3b2388356d64c6257e8",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_lower_r90\\level_1\\base"
+    },
+    {
+      "case": "single_max_area_lower_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "7f56cf8ccb542c73e5938aa1f3367bcdecc3673c807aea57de17044047250dc7",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "f10be8b881d056dfd31e610dafa6e5bd8bc5670a0f76c31038210926927b1f36",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_area_lower_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_span_center_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "d19d4f6f5431e5b63d4e17b476408ef4623528b311a3243993f3e5463402d060",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "b1293cf39e29ac48acf13cec3565fd31912004e9f7d2187705264402bcdc5366",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_center_r0\\level_0\\base"
+    },
+    {
+      "case": "single_max_span_center_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "d19d4f6f5431e5b63d4e17b476408ef4623528b311a3243993f3e5463402d060",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "25ac20bcfc23d88d0eb538910c186a5a3872dab9e8e4c03d21d1950151f18130",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_center_r0\\level_1\\base"
+    },
+    {
+      "case": "single_max_span_center_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "d19d4f6f5431e5b63d4e17b476408ef4623528b311a3243993f3e5463402d060",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "f617c5a7d4cd78d68f877fa0ce81e8db718dbe7d30c4a2029ff517abac63d994",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_center_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_span_upper_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "1b3e1535f6afabd3dc6216f087b39664b55a9ba2140a4f3a62affa2b1a25485a",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "490db9e7b83b1ce7661427280408f5d678dd76876f6a70732cf26c8ba8da7705",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_upper_r0\\level_0\\base"
+    },
+    {
+      "case": "single_max_span_upper_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "1b3e1535f6afabd3dc6216f087b39664b55a9ba2140a4f3a62affa2b1a25485a",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "f7c82319271093ea9d27a186d8c8d07e92beebb47358379ffae7eaa61d9572a1",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_upper_r0\\level_1\\base"
+    },
+    {
+      "case": "single_max_span_upper_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "1b3e1535f6afabd3dc6216f087b39664b55a9ba2140a4f3a62affa2b1a25485a",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "1e302128ccaa550c84c523a407b328debffaed4f9684b9665d0613dc3322897e",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_upper_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_span_lower_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "db22ba81f5fe9f6ecc22b2c3519c3fb001787ee77588bec410be0c55552da6ab",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "d65275f0e3f08ca1a0bbe80047883835aedeae2313c2dcf59c995bf46d5fdc90",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_lower_r0\\level_0\\base"
+    },
+    {
+      "case": "single_max_span_lower_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "db22ba81f5fe9f6ecc22b2c3519c3fb001787ee77588bec410be0c55552da6ab",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "9bc0f2c285e1b76219cc7a8483098b9a9e085bf7bcd17725d5ed78f3f65cac49",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_lower_r0\\level_1\\base"
+    },
+    {
+      "case": "single_max_span_lower_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "db22ba81f5fe9f6ecc22b2c3519c3fb001787ee77588bec410be0c55552da6ab",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "9a2cb689a2f0d03d31d024db9676e97257c9fa9068c941a2daf9bccacf18bfea",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_lower_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_span_center_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "227e353810132aa4132b6fe07790f6200c94066ad5a8c3fdaf7163d4510d11e7",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "67fa2a580a1a38b52cee089242bf9d33f95c13c42cdbc62360683c7e3d1f03b8",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_center_r90\\level_0\\base"
+    },
+    {
+      "case": "single_max_span_center_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "227e353810132aa4132b6fe07790f6200c94066ad5a8c3fdaf7163d4510d11e7",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "e13ed4a3c4cff7aa421fd35495042c563c4ff3426210e148c9336f1a36a64421",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_center_r90\\level_1\\base"
+    },
+    {
+      "case": "single_max_span_center_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "227e353810132aa4132b6fe07790f6200c94066ad5a8c3fdaf7163d4510d11e7",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "99fa26b0d44c180588fab46907af46650790675a9ff4c5f58dfe10e6cb740505",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_center_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_span_upper_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "84f25aa84a4bca5281abfd6e87b856301e6d8900d26d6ae25cc3768a9774fa5e",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_upper_r90\\level_0\\base"
+    },
+    {
+      "case": "single_max_span_upper_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "a39c9773a0a6ff17e745d016aeceae6fde5763b7ea5a5895f328907dbaf4c2e1",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_upper_r90\\level_1\\base"
+    },
+    {
+      "case": "single_max_span_upper_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "a2977c55c3bc5f18cdfeafe32a2b2c3020a703adfbc0a78db1aa48cc8ee4046f",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_upper_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_max_span_lower_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "169182048ba85eb3cbc6503e61103ad399ff3640505a72a1e9af70238f71fec1",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_lower_r90\\level_0\\base"
+    },
+    {
+      "case": "single_max_span_lower_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "38f10081d1ad57fda0793c2a2d25b0bacb2734635a2aeb790390f8852b48d510",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_lower_r90\\level_1\\base"
+    },
+    {
+      "case": "single_max_span_lower_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "756afae7c381156b2398d6d20eef3041f75559ed3951ce416148ad2f35668a0a",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_max_span_lower_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_strongest_development_response_center_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "a0097f9e6e3b4f238a1cb09cf311cc60fba8463afdd7b4484a44439862f54b94",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_center_r0\\level_0\\base"
+    },
+    {
+      "case": "single_strongest_development_response_center_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "a8fb42df4584aff94dde75c1d800c984c41a281e5a275e74f1777393c4c2a100",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_center_r0\\level_1\\base"
+    },
+    {
+      "case": "single_strongest_development_response_center_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "ede926de505cc8bc6a07173c638b502c09d86de3177d6e936fee6afc45765dad",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_center_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_strongest_development_response_upper_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "34f390985682efd426a2af85953166dff542f877bc563f6b4b534d64467f4060",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_upper_r0\\level_0\\base"
+    },
+    {
+      "case": "single_strongest_development_response_upper_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "465b4a90e4cbca71b5024d28d4e0a22fefa0a8d0757a4a5e80daf373090cd8f2",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_upper_r0\\level_1\\base"
+    },
+    {
+      "case": "single_strongest_development_response_upper_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "193b60c888e457437c8a19103bb973b647c7b9bc409f7f1b6f3aa5ba15aca77b",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_upper_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_strongest_development_response_lower_r0",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "9a29eefef72a14c1f54d03f91af498ac512a7449a7e5f9070c8b2956b1dcf1c8",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_lower_r0\\level_0\\base"
+    },
+    {
+      "case": "single_strongest_development_response_lower_r0",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "45497e409553639506c0b3a393ecaab7171ecb1ed0a2eca8e409d712c77dea3c",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_lower_r0\\level_1\\base"
+    },
+    {
+      "case": "single_strongest_development_response_lower_r0",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "dacfe9e87378e605e7693d184633905792c87f3c893f8945ec8f5901db7e2815",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_lower_r0\\level_1\\absorber"
+    },
+    {
+      "case": "single_strongest_development_response_center_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "86bc81654dec9704a70eed289bd2d892c95049d532bb6f083a7d8a432c3881c0",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_center_r90\\level_0\\base"
+    },
+    {
+      "case": "single_strongest_development_response_center_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "bf92778aaf5e2d4ade875845b243da1ddc9598749eb1a2b094c323b5d4eea8ee",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_center_r90\\level_1\\base"
+    },
+    {
+      "case": "single_strongest_development_response_center_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "4dc56e3aad56850efc31eb4e3e9ccc7027ab626451f6f5f1dd4c0e0c997bd912",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_center_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_strongest_development_response_upper_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "9c7b7cc3b78c1f843945500f9e0c1d3b04363ec733ff26c90e6c3f52018d2adc",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_upper_r90\\level_0\\base"
+    },
+    {
+      "case": "single_strongest_development_response_upper_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "389d16555ca697f02f7aa681042c2506c0594488bc871a97e9392bf5480cc855",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_upper_r90\\level_1\\base"
+    },
+    {
+      "case": "single_strongest_development_response_upper_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "328ccf8201b49fd3e462b0b4295f2e6e8058b7e35ec21a5b15a3ef7b4dfe43dd",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_upper_r90\\level_1\\absorber"
+    },
+    {
+      "case": "single_strongest_development_response_lower_r90",
+      "variant": "base",
+      "planned_settings": {
+        "geometry_hash": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 0.00015,
+        "micro_divisor": 30,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "dc6ff4c5cb7fe10187aca666dc930e0a3fa69b5d4db556081e35044ed45009f2",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_lower_r90\\level_0\\base"
+    },
+    {
+      "case": "single_strongest_development_response_lower_r90",
+      "variant": "fine",
+      "planned_settings": {
+        "geometry_hash": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.33799616314757297,
+          "absorb_length": 0.18399780751289885,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "68897eb2fb3911b39cc70a5ed437a4741d1ae5bf3f4be09d80e5344627990f66",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_lower_r90\\level_1\\base"
+    },
+    {
+      "case": "single_strongest_development_response_lower_r90",
+      "variant": "absorber",
+      "planned_settings": {
+        "geometry_hash": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4",
+        "material_sha256": "a2fb6fe42efcfb14a3ba45e8c0dcb3c6edb2061dddf3f753886c11cf07860304",
+        "frequency_hz": 200000.0,
+        "modes": [
+          "S0",
+          "A0"
+        ],
+        "mesh_m": 7.5e-05,
+        "micro_divisor": 60,
+        "repair_tolerance_m": 1e-09,
+        "layout": {
+          "h": 0.001,
+          "start": 0.09199890375644942,
+          "sponge": 0.15399835563467412,
+          "length": 0.4299950669040224,
+          "absorb_length": 0.27599671126934827,
+          "pre_positions": [
+            0.07999890375644943,
+            0.08199890375644943,
+            0.08399890375644942
+          ],
+          "post_positions": [
+            0.14799890375644942,
+            0.14999890375644942,
+            0.15199890375644942
+          ]
+        },
+        "source": "Frequency-specific SAFE, exp(+iwt)",
+        "primary_port_samples": 401,
+        "dense_port_samples": [
+          801,
+          1601
+        ]
+      },
+      "planned_fingerprint": "786779f22431a14a84e08999cb51b175edb3df48fff451fe509d1325ab2d4217",
+      "status": "queued_after_protected_P_tasks",
+      "folder": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\solves\\center\\single_strongest_development_response_lower_r90\\level_1\\absorber"
+    }
+  ],
+  "P2": "Depends on P1-selected models; freeze p2_models.json before solving",
+  "P3": "Frozen 113-142 geometries; paired mesh level follows predeclared maximum accepted P1 level",
+  "native_first_case_timing": null
+}

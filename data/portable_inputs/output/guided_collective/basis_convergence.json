@@ -1,0 +1,49 @@
+{
+  "coarse_elements": 120,
+  "fine_elements": 240,
+  "rows": [
+    {
+      "frequency_hz": 50000.0,
+      "mode": "S0",
+      "wavelength_m": 0.04599945188431291,
+      "relative_wavelength_difference": 2.3387516367989747e-09,
+      "relative_profile_difference": 1.4214574483806533e-09
+    },
+    {
+      "frequency_hz": 50000.0,
+      "mode": "A0",
+      "wavelength_m": 0.008918096792040161,
+      "relative_wavelength_difference": 1.6008594518890362e-06,
+      "relative_profile_difference": 4.300613810601378e-07
+    },
+    {
+      "frequency_hz": 100000.0,
+      "mode": "S0",
+      "wavelength_m": 0.022995200449495094,
+      "relative_wavelength_difference": 1.08114071029064e-08,
+      "relative_profile_difference": 7.732012303134143e-09
+    },
+    {
+      "frequency_hz": 100000.0,
+      "mode": "A0",
+      "wavelength_m": 0.006163322760755221,
+      "relative_wavelength_difference": 1.9956568508838757e-06,
+      "relative_profile_difference": 8.473618576014011e-07
+    },
+    {
+      "frequency_hz": 200000.0,
+      "mode": "S0",
+      "wavelength_m": 0.01148827984435569,
+      "relative_wavelength_difference": 4.4818742495067454e-08,
+      "relative_profile_difference": 6.782841395219328e-08
+    },
+    {
+      "frequency_hz": 200000.0,
+      "mode": "A0",
+      "wavelength_m": 0.0041750406415508945,
+      "relative_wavelength_difference": 2.7497720667124526e-06,
+      "relative_profile_difference": 1.7868158610815619e-06
+    }
+  ],
+  "first_higher_cutoff_hz": 993789.4182410439
+}

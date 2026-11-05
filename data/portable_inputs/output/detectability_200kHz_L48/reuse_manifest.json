@@ -1,0 +1,4026 @@
+{
+  "cases": [
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference_L48",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz matched 48 mm six ports",
+      "fingerprint": "fa913d9e5e5523e5ae44e6a104e8155220efb1f9e743ec5ea935f82c80afb129",
+      "signature": {
+        "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference_L48\\results.json",
+          "sha256": "5ba337ccdef92b3d8f00ca75ad7421017567ca4f52ce2f494c2289f29143af75",
+          "bytes": 5900
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference_L48\\signals.npz",
+          "sha256": "df7f2741b36156ec301705038f136e535e131a336f6da70eac574efed9585462",
+          "bytes": 5383
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\reference_L48_fine",
+      "reuse": "可直接复用数据",
+      "reason": "Matched fine-grid 48 mm reference",
+      "fingerprint": "5de85a2a2cded19184682664fa6534c8448c60c9cdca93d2a18bdcb956ef7a57",
+      "signature": {
+        "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 7.5e-05,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09,
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\reference_L48_fine\\results.json",
+          "sha256": "02ac9693cb645ed82cc1224e4fd0a223e7cc96331977adc430377041fc6adce1",
+          "bytes": 6026
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\reference_L48_fine\\signals.npz",
+          "sha256": "b1ccaf2ebaf642c3ad0a6873f404bb1ce974338a04e1de4b7fc479f6113e0718",
+          "bytes": 5383
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference",
+      "reuse": "可直接复用数据",
+      "reason": "Legacy single-pore normalization only; not interchangeable with L48 ports",
+      "fingerprint": "36fdab9bcd6b00795c1ad2058942c7f358a9d9b8c678cd4f9a93f0ef58d3a8de",
+      "signature": {
+        "geometry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1"
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference\\results.json",
+          "sha256": "e8e63de5c974846541079647ddb7ce5b1e34f517d69bc9e34bb8aa2491c0a95d",
+          "bytes": 7023
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference\\signals.npz",
+          "sha256": "57ab53910dd80d8bdf87b6f6c06fb18b97d77141f928660400fbbd82ad33ee35",
+          "bytes": 7917
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "1f1f3930a458c98012f7074001edf84e24d4ed781b63b36770b9944ea77258be",
+      "signature": {
+        "geometry_hash": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101\\results.json",
+          "sha256": "61f9266f1848e36133a4532e856572129bf6bc89e5469a835051aaa47f2327cf",
+          "bytes": 5863
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101\\signals.npz",
+          "sha256": "de3e65edbd86c44759b050edb00f405f820d11b839aa4f6c16189a0bffe00728",
+          "bytes": 5387
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101\\geometry\\geometry.json",
+          "sha256": "e3d54e160a7195a7691c2d6eae54cd49050807ad3ee0e637cac972e6dfe57f44",
+          "bytes": 446117
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101\\geometry\\metadata.json",
+          "sha256": "2df162eb74a28e4e8007763f60d512e52a967ad60f4426addd316043d72082c8",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.014999999999999998,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999824586510524,
+      "native_count_source": "geometry_audit.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_102",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "e95ddda624cee63347d7285db4748d4eaee6ed57ba4dc4565773b1e8b321cde1",
+      "signature": {
+        "geometry_hash": "c2a59f47774eaa39c70fa0bc8e82c45527cc10434eedad211cfa3aa432b9a257",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_102\\results.json",
+          "sha256": "0af0c6fc60e4935d8a68c54a7eec3a5b576925034d5a127b5a37933d2185a1dc",
+          "bytes": 5871
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_102\\signals.npz",
+          "sha256": "13ba47b00efa747e5b0cab05665a6d82d049df8bfdc278b67374db92f4b0ebf9",
+          "bytes": 5389
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_102\\geometry\\geometry.json",
+          "sha256": "ba012e23780c2ee680678f382a7a7e07013f079b1db5a231f4139daff97b2056",
+          "bytes": 456386
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_102\\geometry\\metadata.json",
+          "sha256": "b9cd4f0a5d29f1528d79ab9804c6426d13d1414059d7b71a9b2495fc80d2c35a",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.015000000000000022,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999804366247298,
+      "native_count_source": "geometry_audit.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_103",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "be3e8a41f741fcdfc0d0eaeb3210505965d6ecec246dac09b0ab7de43cee83a7",
+      "signature": {
+        "geometry_hash": "bddcae55646035386750cda213718bad53ac4f178e50884dbba30bd4687cd51b",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_103\\results.json",
+          "sha256": "65fa208c55612a104106f4a8c990b38eda5c5beddd4c3ee32863e19e6236b447",
+          "bytes": 5873
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_103\\signals.npz",
+          "sha256": "4810afc1ee34adf581aca78dda58e6a6dc053fd4cf764f58bfdf7ceb413de2f3",
+          "bytes": 5390
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_103\\geometry\\geometry.json",
+          "sha256": "bc10a6bc39618da594a381c5252466036a8d3265711d9b0785ca037314beb59a",
+          "bytes": 455433
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_103\\geometry\\metadata.json",
+          "sha256": "39e6b96ecbd43920ef8752962f00750492acabea28f77f65a2a47577f531a435",
+          "bytes": 461
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.01499999999999999,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.01499975043568778,
+      "native_count_source": "geometry_audit.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_104",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "3627548ff167902ccace842f5b67348d62f4337cb62e97669705b4f5faf87b8d",
+      "signature": {
+        "geometry_hash": "0c7b0107a5ac7d1c86bf81ae7dbe591b322c979bd832782151aab843256d6d1d",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_104\\results.json",
+          "sha256": "99f87917c94c8003b61f3c750561294ffc48103c6879f01bad1453f87b7379f8",
+          "bytes": 5869
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_104\\signals.npz",
+          "sha256": "ca515b5c9173943877b0fe2ed0e5e78915e68c34d8141bd27f8ffa7ae6be409a",
+          "bytes": 5390
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_104\\geometry\\geometry.json",
+          "sha256": "2b201b2f4c270f6f1cd02f2f7aaf5184f4f59441635986225717a2020c895258",
+          "bytes": 443063
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_104\\geometry\\metadata.json",
+          "sha256": "5e6fa8a72d5444eb807af80c150f0216e9a0e15cf05d46aeb272efce39c6ab1c",
+          "bytes": 461
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.01500000000000001,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999787373516154,
+      "native_count_source": "geometry_audit.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_105",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "1cad64de6bf0c229f832898d5b5267f0bcad98d2d0afb4b8004fa0760dc3d1d9",
+      "signature": {
+        "geometry_hash": "fd0b5e77260a0ece355b79fac931aa4f8ee8d04f8cf677984fb9b044070daca0",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_105\\results.json",
+          "sha256": "5d9c47d46191ca148db0b4fa433853da8d9728824e50e45fc94e409976d70f12",
+          "bytes": 5860
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_105\\signals.npz",
+          "sha256": "69e1807ab0b015daa0553b034f0796a746b59ec6b83a8c3c920143f0b529a23b",
+          "bytes": 5392
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_105\\geometry\\geometry.json",
+          "sha256": "6531e7246f87025adb4f1d40f901f9105581175893871da59021ba78b7900027",
+          "bytes": 441849
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_105\\geometry\\metadata.json",
+          "sha256": "70968930e5e5bbad44bd874edeaf07b925a601eaa3338f3826c3513825d6df91",
+          "bytes": 445
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.015,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999874978284972,
+      "native_count_source": "geometry_audit.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_106",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "894f4e8b5512fd92d92963d793b1adb88dc4b16c5e550b9eb6f2286d91874333",
+      "signature": {
+        "geometry_hash": "72b3420adbf0ba01093fc95acec01995a644519b1394b36253cc8b6cfa86a2b8",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_106\\results.json",
+          "sha256": "c3ac1d37035942bd2369fc7de922a2ce0aaace0e651c9a14133c717eea5a0bdc",
+          "bytes": 5865
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_106\\signals.npz",
+          "sha256": "4d600b2ef9309863815b72555282854a87dd2dae8c6af28962921a00033cb215",
+          "bytes": 5386
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_106\\geometry\\geometry.json",
+          "sha256": "8f592b6928a280cc573574d20674bc50f52e4381fc4ec0b863c7e15d0a5f78ff",
+          "bytes": 433227
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_106\\geometry\\metadata.json",
+          "sha256": "017eb6c987fa1c7fdd6431b9d25a54ed05bf1b962c8bf49cce76fe4ef20361f8",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.014999999999999998,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999865473881865,
+      "native_count_source": "geometry_audit.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_107",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "b04c9714e065ad10dcad5ea800e5e3045d57a91119de0965dbaca4232ba70f56",
+      "signature": {
+        "geometry_hash": "4b7731a18f129c75cf87e006c6d5c5141534fd048b1b5507fa095b631b04f5c9",
+        "frequencies": [
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_107\\results.json",
+          "sha256": "ae39c363418ebfc00e1d2f415588014682ef91efde9e76308635abc9f68c73b6",
+          "bytes": 4577
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_107\\signals.npz",
+          "sha256": "3513a89fb5c6e37ba7dd892a65e5805b5f2888eda86581a2a75fda9be544a25c",
+          "bytes": 2825
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_107\\geometry\\geometry.json",
+          "sha256": "b30eb0bef1f4a5fc3738c1a1ddf57b074796ca1c27b1d2ab65e9855192d40e91",
+          "bytes": 418074
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_107\\geometry\\metadata.json",
+          "sha256": "8e52fbb2be9cbeed55c9ddb127a5494ab0e10a085a5a76f9353dfe891e8513a9",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.015000000000000003,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999845899258775,
+      "native_count_source": "results.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_108",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "638c6d32c74abab60be5c4fac18c5d89441ba4d5e2a35a905111e240df97f85a",
+      "signature": {
+        "geometry_hash": "7a7bbb6532865fe5533b01d1e20fc1eb3a4cb37fc6606799d6e22980a4069105",
+        "frequencies": [
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_108\\results.json",
+          "sha256": "7d03104117aaa33f59e44ed1cb21bbc75a42379de610612fb5ac4d8a296e8c81",
+          "bytes": 4579
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_108\\signals.npz",
+          "sha256": "426448d2230ca1260f3d2a735b7b3da00606e5afecb9f430f37941d125dfabf7",
+          "bytes": 2829
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_108\\geometry\\geometry.json",
+          "sha256": "2df44b1bc06ad60a9d3cb1d117a16ee5a703ee740516184d52038a3396e59e93",
+          "bytes": 448131
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_108\\geometry\\metadata.json",
+          "sha256": "27b67c11f76d97281635ff4dc11a162b47150c81112b72f355437013acb228a0",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.015000000000000015,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999962234758359,
+      "native_count_source": "results.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_109",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "e8ccc7a06ad08db358194f3f6e809a2df29e069e3e266f4b5758e77e4c7c6b08",
+      "signature": {
+        "geometry_hash": "5b6068f2abf87ce027172cc550bdc52b1a7686f15bec9faba2114a120c262e1b",
+        "frequencies": [
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_109\\results.json",
+          "sha256": "30dd083687163bd38825cfe08a20fb039ac23bcf778af4779057a684d52fedc2",
+          "bytes": 4572
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_109\\signals.npz",
+          "sha256": "c72d3020c0428d2026a63efa6e10e10df97bea7fdfe575c46c8045866761d8b2",
+          "bytes": 2829
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_109\\geometry\\geometry.json",
+          "sha256": "988c8473e95069cae908f83b658bd60b86a7ecc45168529899ea7cac4f60dd0e",
+          "bytes": 452760
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_109\\geometry\\metadata.json",
+          "sha256": "eeee0cac562780c45871f5986421d02094553e3d66d5fcdd9a706071b6534808",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.014999999999999993,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999995356425478,
+      "native_count_source": "results.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_110",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "4f89f50871ad3e56cf13acc8b9dc5bc7e79f1f025964db1e4c0a8a595dd830ca",
+      "signature": {
+        "geometry_hash": "cb1dde4f07f2c4a7243c916e056b6c72c2842a2e92221d8e789f6d439a2b4331",
+        "frequencies": [
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09,
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_110\\results.json",
+          "sha256": "662895face247a166b8cd642b6038f4cf26311989e8d33941be88f766d579f82",
+          "bytes": 4616
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_110\\signals.npz",
+          "sha256": "8f42a1db385521e91590df16abd5254e0a75733212b0f94603e3d7c2363670e7",
+          "bytes": 2826
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_110\\geometry\\geometry.json",
+          "sha256": "5a8efa15bd8a15fe2b7417b5f56b9c6d95d3d956d9744f61551974a61e5b5d10",
+          "bytes": 456348
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_110\\geometry\\metadata.json",
+          "sha256": "98c924c0ea988acfefb3f66ff2d3a3731935b658c25ff8c0803fe57f59a5bcef",
+          "bytes": 461
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.01499999999999999,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999922983248194,
+      "native_count_source": "results.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_111",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "dc9511e515aaa90157002cefc457f1e18c518f6fcbfad7c14dbf06c99654b63c",
+      "signature": {
+        "geometry_hash": "0a02772b3e5a8894984cefbb8054f34f9d8a5b16237b4d6f0c86f890d0f73caf",
+        "frequencies": [
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_111\\results.json",
+          "sha256": "c77e08b8d974dcc0d31a303fe83f83a0ed2d645b7a87847cdc593c075042e56f",
+          "bytes": 4577
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_111\\signals.npz",
+          "sha256": "caf01f7236227a1d51dbf82f6885667f07fdf149576fd5a75f7f39e5224600ca",
+          "bytes": 2827
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_111\\geometry\\geometry.json",
+          "sha256": "2c36575a3044916e53b427bb533e3fcbc1899468608636d0070ca1fb3ccc954a",
+          "bytes": 457190
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_111\\geometry\\metadata.json",
+          "sha256": "c03fb9b56ba7ae19d12164526f5f04cfeca2be41553c4dc0471486c49d80bdf3",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.015000000000000015,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.015000025712352713,
+      "native_count_source": "results.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_112",
+      "reuse": "可直接复用数据",
+      "reason": "200 kHz raw dual-launch coefficients reconstructed; numerical validation still incomplete",
+      "fingerprint": "9a5b077ae12f347fe4c05c383b7cad3ce52e6903e1a442dcccdde8ba7e1118ee",
+      "signature": {
+        "geometry_hash": "b3d4c123e4fb6ae9e2f98d7af89ecf343cf1804ce9e02a123710c32704b3a379",
+        "frequencies": [
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_112\\results.json",
+          "sha256": "911870622d984c9c7c732063bfdd2805ca866129f959220003eedbadd4558534",
+          "bytes": 4568
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_112\\signals.npz",
+          "sha256": "af34a744dbcdfec6ff839b620bdfc6154e3d23c36436b83ae2c27252adea854d",
+          "bytes": 2826
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_112\\geometry\\geometry.json",
+          "sha256": "f545c3a9480e9cfc362c53ecc246e656719abc63e4821086ee18f74ec64133ad",
+          "bytes": 454064
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_samples\\d80\\L48\\seed_112\\geometry\\metadata.json",
+          "sha256": "92a253ae78bcda66df029c2db0d0afae214aee169500a329c1b8b754091836b9",
+          "bytes": 462
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      },
+      "geometry": {
+        "passed": true,
+        "pore_count": 141,
+        "area_fraction": 0.014999999999999993,
+        "overlaps": [],
+        "all_strictly_inside": true
+      },
+      "native_pore_count": 141,
+      "native_area_fraction": 0.014999939620938136,
+      "native_count_source": "results.json"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\d80_L48_fine",
+      "reuse": "可直接复用数据",
+      "reason": "Same geometry and ports as seed101; paired mesh sensitivity only",
+      "fingerprint": "71aead6ab50a1f69f555c9dcfcea67c56cef954854d04667c0cb0920f0c2203d",
+      "signature": {
+        "geometry_hash": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e",
+        "frequencies": [
+          100000.0,
+          200000.0
+        ],
+        "mesh": 7.5e-05,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09,
+        "micro_mesh_divisor": 60,
+        "port_positions_m": [
+          0.07999890375644943,
+          0.08199890375644943,
+          0.08399890375644942,
+          0.14799890375644942,
+          0.14999890375644942,
+          0.15199890375644942
+        ]
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L48\\seed_101\\geometry\\geometry.json",
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\d80_L48_fine\\results.json",
+          "sha256": "109f5869f05782242faa3795479ddd67d91b07704c0cc023c183cec60e4cc990",
+          "bytes": 6041
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\checks\\d80_L48_fine\\signals.npz",
+          "sha256": "3601a75a44bda6b224b61b4d59dd133859e22cc48d491a191cb68957dbd61076",
+          "bytes": 5388
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_center",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "17855680d06b41274bc2d5da219dd0f4267ed16a6b800267c3470d5cc954d088",
+      "signature": {
+        "geometry_hash": "c750ac1e24b7f690543b2983e139623353b9f3d4c57e290a1cd3653ec6c98869",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_center\\results.json",
+          "sha256": "3a3822251cda34abf2b081350729428f72d24e46a9793effb4badcbb6b9a9953",
+          "bytes": 7282
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_center\\signals.npz",
+          "sha256": "73cd836b100c0747bba31fae5d550e6a34144ae9a44316f5a46f3f851d29439f",
+          "bytes": 7920
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_center\\geometry\\geometry.json",
+          "sha256": "9f214f9c72b7be62fa112eaf79fd4c05be2920b783ec961ae943a47c7b67f0cc",
+          "bytes": 2221
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_center\\geometry\\metadata.json",
+          "sha256": "d9968564c6faf030a6a9971ad8f2c32dcd440d3cf17012bea1745004af6c23eb",
+          "bytes": 617
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_lower",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "bd0a065d2821e9ed2f3261888c12356f3cdc59f75b7525c9745cf3826a4dffac",
+      "signature": {
+        "geometry_hash": "3a8178c497ff1b78af5f2e48d4a7a6af271a768083656f8c04c6b0bca9bb47b2",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_lower\\results.json",
+          "sha256": "014c8afa57286444849a2c9bab6e159b06adaf36ae606aa9be81ae657e939da8",
+          "bytes": 7250
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_lower\\signals.npz",
+          "sha256": "ad210db7d16545cafe9f366334594e7852c8a603231c8cb59eefb649bbcaef56",
+          "bytes": 7936
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_lower\\geometry\\geometry.json",
+          "sha256": "f4e95c5ce7bd166395cae684225596250fb972e658b435285d73fd6a476106b9",
+          "bytes": 2212
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_lower\\geometry\\metadata.json",
+          "sha256": "fa967034d2fc7297af2e63495ba24699c711095d4166343c8997bf65eda6eed9",
+          "bytes": 616
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_upper",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "5bf079d6b6a048063f4b57a74ec99fee68b9b1390a835a172e5fd7ec28c8dde3",
+      "signature": {
+        "geometry_hash": "9cd740bd6ae0e76b2e56d5cabafa2b6a7ac072b714f1903ebaeaad04a6c1a2c7",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_upper\\results.json",
+          "sha256": "072828ac9043ee83eb355f9edb850da77f1cf555f92cadea00ef386b31d9e864",
+          "bytes": 7250
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_upper\\signals.npz",
+          "sha256": "3cee67b1dec76a6889690dcb58a1b180bd8352b34a2642424cf7c02c0f818fd4",
+          "bytes": 7938
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_upper\\geometry\\geometry.json",
+          "sha256": "5f7581200d0ee4ed627ab67b5de7c1d44d0795464552d8bef6284c540cf51df0",
+          "bytes": 2203
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\global_maximum_upper\\geometry\\metadata.json",
+          "sha256": "839e50747baf28b215fe303058fed6a3adaa05a98954c066e82128e3d37ea249",
+          "bytes": 616
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_maximum",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "85174ef5b1f425d6eaa0d8e397f31ca9197f0cfabad1ef4e52c42ae20306e718",
+      "signature": {
+        "geometry_hash": "e665914aa9ede0a147286701720aebeda602b83a327e5dbec4d6d139e42a2799",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1"
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_maximum\\results.json",
+          "sha256": "64a0b396497e5fea7eebd3e3f9f06013e556bcfdb5d06e26ceb3ee2e571cc98a",
+          "bytes": 6985
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_maximum\\signals.npz",
+          "sha256": "1d3a889228b91e09d4dc8557a53b51974656d17fd0900936a0aa17eafc29eb7c",
+          "bytes": 7932
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_maximum\\geometry\\geometry.json",
+          "sha256": "3c511904ec55b0b339c5f7f7ba9eab77e93e6f70d52ef66d80556585df33e3cb",
+          "bytes": 3241
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_maximum\\geometry\\metadata.json",
+          "sha256": "336e5b32d88887693095eeb7f9b2862f58d230b842bdec29509d8ece33770474",
+          "bytes": 489
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_median",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "ff2b0a9d2e088a4cf138d4eeaa28d76abff4ec5ea8d7baca93c87960b22b4fbe",
+      "signature": {
+        "geometry_hash": "38ca2fe1b7cc3f2b1c8cebacb9c42adb89a7c87b199df544a8a7d71abd219105",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1"
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_median\\results.json",
+          "sha256": "89afe4aef738727a7af2c259c2cb6f998efc09a429699fe4c8f128dd89c1be6a",
+          "bytes": 7019
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_median\\signals.npz",
+          "sha256": "3c5444d75cb6e2cee14109a2c98940a1669c283377de9bcca429543d60d399cf",
+          "bytes": 7914
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_median\\geometry\\geometry.json",
+          "sha256": "0c1afbff83ee91750bb48fa610f182e1e72deb8613ebde6693086f485606d705",
+          "bytes": 3186
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_median\\geometry\\metadata.json",
+          "sha256": "561a3677c9672e2e90e819b3ef56c3a47bcad25d61fff5a8703c61562cffeb02",
+          "bytes": 488
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_minimum",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "1f1d32adc2110222579c91afda77606e214aa00580c0d399251e2597bac184ad",
+      "signature": {
+        "geometry_hash": "36359c614e730f800338936d642eec0a32ce1b039e89d95ecbddbc44ba9740b9",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1"
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_minimum\\results.json",
+          "sha256": "d1fb09011efa1b1ffcaf59fa2a12bee689dbcb463d63d3eedaef13b0892057f9",
+          "bytes": 7005
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_minimum\\signals.npz",
+          "sha256": "ceff0675feac6b82c2694b363909cd83b47bdb9ad1ec9974f8a5c7b978f97c32",
+          "bytes": 7924
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_minimum\\geometry\\geometry.json",
+          "sha256": "de81b260a6fb9ee21945666d2075d4bcb9bcefef2a681399eb9ca865cbf42919",
+          "bytes": 3672
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_minimum\\geometry\\metadata.json",
+          "sha256": "ea97fc2dd4f2aa1ac5126ac7b7b64c8265c18ece3a06c06c51e3960d3d893e01",
+          "bytes": 490
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_lower",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "0bbf025f0956410ce7b3e20ef03ccf178b7293c9b876cff887b28e2fbe4efa70",
+      "signature": {
+        "geometry_hash": "ff4a874d2851b7594452991c17bd07ffa407e23e96f8bea820ef7ed88286d352",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_lower\\results.json",
+          "sha256": "96cd68cc33b0151657b27fb178115ad1b97fee5b612a72ee4f16a4716d0e8171",
+          "bytes": 7247
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_lower\\signals.npz",
+          "sha256": "ea863e7d9aa18eb01704b7923bd419325d9a297467e0d74aea0a90ce93647161",
+          "bytes": 7928
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_lower\\geometry\\geometry.json",
+          "sha256": "54dd26dea9d73388fd69edff8a59d2853cb0d7127aaa77f157e5937aa2256ee2",
+          "bytes": 3221
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_lower\\geometry\\metadata.json",
+          "sha256": "854ae90d16a643d26423b4bc3b607a602e27813043415f05228623a2ef665c4a",
+          "bytes": 565
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "Legacy ports and longitudinal pore location differ from required L48 controls; saved MPH only A0",
+      "fingerprint": "57b424264e8c6c38cf71939d7a0bc7d7fcafa3ef676c19032570c4c05115033e",
+      "signature": {
+        "geometry_hash": "a97edb52cb7d5222b3a214ff7b3f924b172e37639f9d728deb5319194f37a777",
+        "frequencies": [
+          50000.0,
+          100000.0,
+          200000.0
+        ],
+        "mesh": 0.00015,
+        "material": {
+          "source": "Zhang Xiang (2011), Gaussian autocorrelation + ranked threshold",
+          "material_status": "illustrative_completion_not_measured_CFRP",
+          "density_kg_m3": 1815,
+          "stiffness_GPa_voigt_xx_yy_zz_yz_xz_xy": [
+            [
+              10.478,
+              3.029,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              3.029,
+              10.478,
+              4.0,
+              0,
+              0,
+              0
+            ],
+            [
+              4.0,
+              4.0,
+              135.0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              5.0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              5.0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              7.17
+            ]
+          ],
+          "coordinate_note": "COMSOL x,y = paper x,z cross-section; COMSOL z = out-of-plane fibre. Only Cxx,Cxy,Gxy,rho are taken from paper table 2.1. Other entries are explicit illustrative assumptions.",
+          "porosity_fractions": [
+            0,
+            0.001,
+            0.005,
+            0.01,
+            0.02,
+            0.03,
+            0.04,
+            0.05
+          ],
+          "seeds": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "pore_roi_um": [
+            1000,
+            1000
+          ],
+          "pixel_um": 2.0,
+          "correlation_lengths_um": [
+            20.0,
+            10.0
+          ],
+          "orientation_deg": 0,
+          "geometry_porosity_absolute_tolerance": 0.0001,
+          "bulk_frequencies_hz": [
+            1000000,
+            2500000,
+            5000000,
+            7500000,
+            10000000
+          ],
+          "guided_frequencies_hz": [
+            100000,
+            200000,
+            300000
+          ],
+          "plate_thickness_m": 0.001,
+          "relative_alpha_tolerance": 0.05,
+          "near_zero_cumulative_tolerance_np": 0.01,
+          "confidence_level": 0.95,
+          "baseline_damping": 0
+        },
+        "layout": [
+          0.09199890375644942,
+          0.15399835563467412,
+          0.33799616314757297
+        ],
+        "solver_schema": "uniform_ports_2source_matrix_v1",
+        "absolute_repair_tolerance_m": 1e-09
+      },
+      "saved_model_state": "Last frequency, A0 excitation; all modal probe arrays retained.",
+      "geometry_source": null,
+      "files": [
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\results.json",
+          "sha256": "cc618ac89e5ffe947051341e58b6873d286d26b0b9f343362c28ef1eb9af3fa6",
+          "bytes": 7233
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\signals.npz",
+          "sha256": "4dcbe045acb703026bc428ccc949b2105dda3259fe85b6eb0cfe58adcfed61af",
+          "bytes": 7935
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+          "sha256": "847784eeb51a505d521459ebb159c191b546eb1bb5456e94b4cf2dd2ecff871d",
+          "bytes": 3195
+        },
+        {
+          "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\metadata.json",
+          "sha256": "1a01f8d9a053691bbc9cca9efbd06a1eac6c30561b01a474e98b9a665d365e75",
+          "bytes": 565
+        }
+      ],
+      "model_mph": {
+        "exists": true,
+        "use": "Last-frequency A0 only; not a source of missing S0 fields"
+      }
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\transient_verified",
+      "reuse": "可复用几何或设置但须补算",
+      "reason": "8 mm transient validation reuses implementation/settings only; different geometry/ports/layout, not evidence for 48 mm",
+      "guided_checks": [
+        {
+          "case": "group",
+          "complete": true,
+          "passed": true
+        },
+        {
+          "case": "reference",
+          "complete": true,
+          "passed": true
+        }
+      ],
+      "validation_sha256": "bb41ac2f4526df6ea3f9ea6699086623f9058c316ba498b51e3fc9028a859484"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\absorber_L48",
+      "reuse": "缺失",
+      "reason": "Required by the frozen new validation protocol; no accepted compatible evidence found"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\matched_single_controls_L48",
+      "reuse": "缺失",
+      "reason": "Required by the frozen new validation protocol; no accepted compatible evidence found"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frequency_band_L48",
+      "reuse": "缺失",
+      "reason": "Required by the frozen new validation protocol; no accepted compatible evidence found"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\transient_L48",
+      "reuse": "缺失",
+      "reason": "Required by the frozen new validation protocol; no accepted compatible evidence found"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\independent_30",
+      "reuse": "缺失",
+      "reason": "Required by the frozen new validation protocol; no accepted compatible evidence found"
+    }
+  ],
+  "supporting_evidence": [
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\验证结果_中文.md",
+      "sha256": "918729047d1b14caed0d1fd9b978cb4a042824492b18ade7932950eb5ba7791d",
+      "bytes": 9199
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\PROTOCOL.md",
+      "sha256": "f34fa3964215e6e2ccd037ea28bfb6e7b860c88896d680d234cff080d239325c",
+      "bytes": 2665
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\study_settings.json",
+      "sha256": "c9aa60f3cec5abb21a1bb19d58472faea7e13c79c43ba4c38593b74bfa44727b",
+      "bytes": 826
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\extended_attenuation.json",
+      "sha256": "0a6dcd66ea695a4af4baff0c3fe9c9db0d071222e20e70632576a93b5ccedb47",
+      "bytes": 4576,
+      "reuse": "Background and explicitly matched center-frequency controls; alpha stability is not the detectability gate"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\single_controls_summary.json",
+      "sha256": "9e2ba918f0ffa6e5163a77cf607213ab276975c46769ffb5113e08b0f4607d4e",
+      "bytes": 8922
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\numerical_checks.json",
+      "sha256": "ee49206cd41f3ddb6313c469858b7ec4588f94fcea908aa3df2cd5e05171984d",
+      "bytes": 14386,
+      "reuse": "Background and explicitly matched center-frequency controls; alpha stability is not the detectability gate"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\geometry_audit.json",
+      "sha256": "e9982bdb5e8132fa385ee389744e23970842640330485e1e5a2eb0f10ff96088",
+      "bytes": 14523
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\fe_port_check.json",
+      "sha256": "58c19900917aaa49790f1ec418eb8c690d58f7755ec6d56f67803b60fe3b5c7a",
+      "bytes": 2120,
+      "reuse": "method/background only; not P1 L48 dual-incident error budget",
+      "cases": [
+        "d20\\L8\\seed_101",
+        "d80\\L8\\seed_101",
+        "d80\\single_maximum",
+        "reference"
+      ],
+      "observable": "Existing A0/direct reciprocity checks; not a full two-launch L48 matched control"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\projection_crosscheck.json",
+      "sha256": "49cf1e34b07ecda3c123c08afe8136be9d519da757b4dc2d4c36698e863adbde",
+      "bytes": 1606,
+      "reuse": "method/background only; not P1 L48 dual-incident error budget",
+      "cases": [
+        "d20/L8/seed_101",
+        "d40/L8/seed_101",
+        "d80/single_maximum",
+        "reference"
+      ],
+      "observable": "Existing A0/direct reciprocity checks; not a full two-launch L48 matched control"
+    },
+    {
+      "path": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\basis_convergence.json",
+      "sha256": "988701347e35a731023a4124f8a819d78086d3ad6599e14f58bda2855db27d9c",
+      "bytes": 1552,
+      "reuse": "200 kHz SAFE basis convergence; not complete 17-point new-band validation"
+    }
+  ]
+}

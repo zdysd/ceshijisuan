@@ -1,0 +1,160 @@
+[
+  {
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "diameter_group_um": 80,
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "samples": 12,
+    "lengths_m": [
+      0.008,
+      0.024,
+      0.048
+    ],
+    "fit": {
+      "alpha_np_m": 0.04310271422703612,
+      "alpha_db_m": 0.3743854188770914,
+      "alpha_db_mm": 0.0003743854188770914,
+      "slope_stderr_np_m": 0.006733123527045271,
+      "r_squared": 0.9761793534979228,
+      "log_amplitude_residual_max": 0.00015549482723306303,
+      "phase_slope_rad_m": -4.5318705184236245,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_alpha_np_m": [
+      0.02894185904508851,
+      0.057891104118050846
+    ],
+    "typical_fit": {
+      "alpha_np_m": 0.04166392134201935,
+      "alpha_db_m": 0.36188822266580256,
+      "alpha_db_mm": 0.00036188822266580256,
+      "slope_stderr_np_m": 0.006515630153411119,
+      "r_squared": 0.9761274350862968,
+      "log_amplitude_residual_max": 0.000150472032920478,
+      "phase_slope_rad_m": 0.0,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_typical_alpha_np_m": [
+      0.02724437949171374,
+      0.05635155492251602
+    ],
+    "positive_attenuation_identified": true,
+    "exponential_fit_passed": true,
+    "bootstrap_unit": "Matched random-seed family across all tested lengths",
+    "local_alpha_np_m_by_adjacent_interval": [
+      0.027553231503723383,
+      0.05217324581563196
+    ],
+    "longest_segment_contrast": {
+      "samples": 12,
+      "amplitude_reduction": 0.0025496253607273367,
+      "ci95_amplitude_reduction": [
+        0.0020373362352010677,
+        0.003041306378361211
+      ],
+      "mean_individual_amplitude_reduction": 0.002481782531735551,
+      "ci95_mean_individual_reduction": [
+        0.001970870432577864,
+        0.0029891755900247393
+      ],
+      "fraction_individuals_above_0p1percent": 0.9166666666666666,
+      "individual_magnitude_standard_deviation": 0.0009695752497139015
+    },
+    "sample_count_relative_change": 0.4308770659094919,
+    "sample_count_5percent_passed": false
+  },
+  {
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "diameter_group_um": 80,
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "samples": 12,
+    "lengths_m": [
+      0.008,
+      0.024,
+      0.048
+    ],
+    "fit": {
+      "alpha_np_m": 0.06264754669842391,
+      "alpha_db_m": 0.5441496767180357,
+      "alpha_db_mm": 0.0005441496767180357,
+      "slope_stderr_np_m": 0.003118784290795976,
+      "r_squared": 0.9975277776001243,
+      "log_amplitude_residual_max": 7.202523799341239e-05,
+      "phase_slope_rad_m": -10.773379201556393,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_alpha_np_m": [
+      0.03606179066817402,
+      0.08931386590646406
+    ],
+    "typical_fit": {
+      "alpha_np_m": 0.060280154936666705,
+      "alpha_db_m": 0.5235867731453483,
+      "alpha_db_mm": 0.0005235867731453483,
+      "slope_stderr_np_m": 0.0043569352817807655,
+      "r_squared": 0.9948030253853392,
+      "log_amplitude_residual_max": 0.00010061911031111238,
+      "phase_slope_rad_m": 0.0,
+      "distance_span_m": 0.04,
+      "reference_subtracted": false
+    },
+    "ci95_typical_alpha_np_m": [
+      0.03495160975723301,
+      0.08710585160589931
+    ],
+    "positive_attenuation_identified": true,
+    "exponential_fit_passed": true,
+    "bootstrap_unit": "Matched random-seed family across all tested lengths",
+    "local_alpha_np_m_by_adjacent_interval": [
+      0.055445022899088675,
+      0.06684901891470352
+    ],
+    "longest_segment_contrast": {
+      "samples": 12,
+      "amplitude_reduction": 0.0030392933148435386,
+      "ci95_amplitude_reduction": [
+        0.002130048184568725,
+        0.004009652333349897
+      ],
+      "mean_individual_amplitude_reduction": 0.00290080211240921,
+      "ci95_mean_individual_reduction": [
+        0.0020240969774716357,
+        0.003878615767883667
+      ],
+      "fraction_individuals_above_0p1percent": 0.9166666666666666,
+      "individual_magnitude_standard_deviation": 0.00169034089763052
+    },
+    "sample_count_relative_change": 0.10223542495738193,
+    "sample_count_5percent_passed": false
+  }
+]

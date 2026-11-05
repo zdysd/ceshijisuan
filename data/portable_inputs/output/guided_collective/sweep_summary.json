@@ -1,0 +1,362 @@
+[
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.000216632352034285,
+    "ci95_amplitude_reduction": [
+      0.00021035140404003229,
+      0.0002237394537370041
+    ],
+    "mean_individual_amplitude_reduction": 0.0002165952476927598,
+    "ci95_mean_individual_reduction": [
+      0.00021034360557212935,
+      0.00022370884100152236
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 9.556294652450964e-06,
+    "largest_single_magnitude_change": 9.248815047158132e-10,
+    "largest_single_reflected_mode_change_max": 0.000222041929268312
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 3.274494256222393e-05,
+    "ci95_amplitude_reduction": [
+      -0.00010860553036383113,
+      0.00017906094057835984
+    ],
+    "mean_individual_amplitude_reduction": 3.1170365718498814e-05,
+    "ci95_mean_individual_reduction": [
+      -0.00011045384473485538,
+      0.00017879070095040914
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.0002037308382626664,
+    "largest_single_magnitude_change": 2.244286205499435e-05,
+    "largest_single_reflected_mode_change_max": 0.00014555726492174265
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.00019394803529770854,
+    "ci95_amplitude_reduction": [
+      0.0001744009070042546,
+      0.0002135197675662309
+    ],
+    "mean_individual_amplitude_reduction": 0.00019380786344950587,
+    "ci95_mean_individual_reduction": [
+      0.00017435511827234573,
+      0.00021333573963477903
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 2.7615289261739276e-05,
+    "largest_single_magnitude_change": 1.6062822294493628e-08,
+    "largest_single_reflected_mode_change_max": 0.0003292688240119858
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 3.9429511269895023e-05,
+    "ci95_amplitude_reduction": [
+      -0.00012852011210757187,
+      0.00021076445947235112
+    ],
+    "mean_individual_amplitude_reduction": 3.692278317511214e-05,
+    "ci95_mean_individual_reduction": [
+      -0.00012966310959994232,
+      0.00020971097118694182
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.00023716591305304478,
+    "largest_single_magnitude_change": 3.469931631361334e-05,
+    "largest_single_reflected_mode_change_max": 0.00023893253138552835
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.00027335950617002336,
+    "ci95_amplitude_reduction": [
+      0.00022526775362663454,
+      0.00032611646070135336
+    ],
+    "mean_individual_amplitude_reduction": 0.0002727837640439379,
+    "ci95_mean_individual_reduction": [
+      0.00022506126218361602,
+      0.00032519022972503917
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 6.949931485461842e-05,
+    "largest_single_magnitude_change": 1.0186956056479346e-07,
+    "largest_single_reflected_mode_change_max": 0.0005023415033066379
+  },
+  {
+    "diameter_group_um": 20,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 7.364567245005116e-05,
+    "ci95_amplitude_reduction": [
+      -0.00017003627988643188,
+      0.0003222936414474739
+    ],
+    "mean_individual_amplitude_reduction": 7.003244853083974e-05,
+    "ci95_mean_individual_reduction": [
+      -0.00017602821583321364,
+      0.0003207776445578733
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.0003351418974115838,
+    "largest_single_magnitude_change": 6.0569838626012285e-05,
+    "largest_single_reflected_mode_change_max": 0.0007384810743299625
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.00023906237162696353,
+    "ci95_amplitude_reduction": [
+      0.00022987522740403055,
+      0.0002480087413998522
+    ],
+    "mean_individual_amplitude_reduction": 0.00023897205365075447,
+    "ci95_mean_individual_reduction": [
+      0.000229869796237403,
+      0.0002479283167402341
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 1.2889570071003618e-05,
+    "largest_single_magnitude_change": 1.3818601041215572e-07,
+    "largest_single_reflected_mode_change_max": 0.0006726472268145185
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": -3.8184631345083986e-05,
+    "ci95_amplitude_reduction": [
+      -0.00013087354988305933,
+      5.0541497070466455e-05
+    ],
+    "mean_individual_amplitude_reduction": -3.997047741373846e-05,
+    "ci95_mean_individual_reduction": [
+      -0.00013152014630794331,
+      4.894906447245418e-05
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.0001236118421935169,
+    "largest_single_magnitude_change": 2.2715124772032524e-05,
+    "largest_single_reflected_mode_change_max": 0.0003258924219228614
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.00027304798029381683,
+    "ci95_amplitude_reduction": [
+      0.00022944842170613544,
+      0.00031529749304844146
+    ],
+    "mean_individual_amplitude_reduction": 0.0002726889232714432,
+    "ci95_mean_individual_reduction": [
+      0.00022909757285664392,
+      0.000314677444689942
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 6.0985576270112236e-05,
+    "largest_single_magnitude_change": 4.0932796485648737e-07,
+    "largest_single_reflected_mode_change_max": 0.0010064593438183877
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 7.879800761889655e-06,
+    "ci95_amplitude_reduction": [
+      -9.538829947763894e-05,
+      0.00010448732395934572
+    ],
+    "mean_individual_amplitude_reduction": 4.70793988410767e-06,
+    "ci95_mean_individual_reduction": [
+      -9.737681764154793e-05,
+      9.935185837772321e-05
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.0001388955316961144,
+    "largest_single_magnitude_change": 3.143031333885382e-05,
+    "largest_single_reflected_mode_change_max": 0.0006049625056748479
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.0002860629229124445,
+    "ci95_amplitude_reduction": [
+      0.0001905773581164033,
+      0.00037227691352222645
+    ],
+    "mean_individual_amplitude_reduction": 0.00028463322883463354,
+    "ci95_mean_individual_reduction": [
+      0.0001904389183412426,
+      0.0003709935455817141
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.00013272373502266712,
+    "largest_single_magnitude_change": 1.6559105384672534e-06,
+    "largest_single_reflected_mode_change_max": 0.0015450707657891115
+  },
+  {
+    "diameter_group_um": 40,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 6.125972550519165e-05,
+    "ci95_amplitude_reduction": [
+      -9.48466521084601e-05,
+      0.0002036326525844761
+    ],
+    "mean_individual_amplitude_reduction": 5.4438020044363565e-05,
+    "ci95_mean_individual_reduction": [
+      -0.00010332138199832992,
+      0.00019984484924681119
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.0002180871596324859,
+    "largest_single_magnitude_change": 4.9818735613937903e-05,
+    "largest_single_reflected_mode_change_max": 0.001354462884566011
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 50000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.0003096463098203328,
+    "ci95_amplitude_reduction": [
+      0.00026129778951026474,
+      0.0003579280728543882
+    ],
+    "mean_individual_amplitude_reduction": 0.00030889979575948745,
+    "ci95_mean_individual_reduction": [
+      0.00026091906647662946,
+      0.00035778214199291283
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 6.942622455445852e-05,
+    "largest_single_magnitude_change": 1.4629782469133268e-05,
+    "largest_single_reflected_mode_change_max": 0.00576143975585258
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 50000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 0.00010365013073376783,
+    "ci95_amplitude_reduction": [
+      4.061540206286296e-05,
+      0.00016580565789925394
+    ],
+    "mean_individual_amplitude_reduction": 9.850768393606286e-05,
+    "ci95_mean_individual_reduction": [
+      3.627259266264504e-05,
+      0.0001607427752094807
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 8.70594139414228e-05,
+    "largest_single_magnitude_change": 1.4309605463447284e-05,
+    "largest_single_reflected_mode_change_max": 0.004172393376585974
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 100000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.0004810266765582494,
+    "ci95_amplitude_reduction": [
+      0.00033875946952715283,
+      0.0006458272302688473
+    ],
+    "mean_individual_amplitude_reduction": 0.00047820501889128675,
+    "ci95_mean_individual_reduction": [
+      0.00033722360598485897,
+      0.0006442655036473788
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.00021738469277750977,
+    "largest_single_magnitude_change": 4.509654604778479e-05,
+    "largest_single_reflected_mode_change_max": 0.008444024157103467
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 100000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 0.00028555489620496477,
+    "ci95_amplitude_reduction": [
+      0.00014651260006659506,
+      0.0004292818007474024
+    ],
+    "mean_individual_amplitude_reduction": 0.0002766917698776202,
+    "ci95_mean_individual_reduction": [
+      0.00014117764941586527,
+      0.0004261515485572224
+    ],
+    "fraction_individuals_above_0p1percent": 0.0,
+    "individual_magnitude_standard_deviation": 0.00019696194998257237,
+    "largest_single_magnitude_change": 3.5761117276766896e-05,
+    "largest_single_reflected_mode_change_max": 0.0055875644789297844
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 200000.0,
+    "mode": "S0",
+    "samples": 6,
+    "amplitude_reduction": 0.0008615567283282166,
+    "ci95_amplitude_reduction": [
+      0.0006467183003904253,
+      0.0011568775684514141
+    ],
+    "mean_individual_amplitude_reduction": 0.0008512994134220094,
+    "ci95_mean_individual_reduction": [
+      0.0006351032015024326,
+      0.0011465262030483788
+    ],
+    "fraction_individuals_above_0p1percent": 0.16666666666666666,
+    "individual_magnitude_standard_deviation": 0.00036520121473383575,
+    "largest_single_magnitude_change": 0.00014759805652242441,
+    "largest_single_reflected_mode_change_max": 0.012621209635678655
+  },
+  {
+    "diameter_group_um": 80,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "samples": 6,
+    "amplitude_reduction": 0.0005853191583403694,
+    "ci95_amplitude_reduction": [
+      0.0003471328917220573,
+      0.0009636371386195718
+    ],
+    "mean_individual_amplitude_reduction": 0.0005604892366105433,
+    "ci95_mean_individual_reduction": [
+      0.0003314826497316144,
+      0.0009310850792218125
+    ],
+    "fraction_individuals_above_0p1percent": 0.16666666666666666,
+    "individual_magnitude_standard_deviation": 0.00046106727133985207,
+    "largest_single_magnitude_change": 9.182151506492708e-05,
+    "largest_single_reflected_mode_change_max": 0.00898749838906922
+  }
+]

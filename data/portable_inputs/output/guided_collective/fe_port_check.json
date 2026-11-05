@@ -1,0 +1,58 @@
+[
+  {
+    "case": "reference",
+    "length_mm": 8,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "T_real": 1.0,
+    "T_imag": 0.0,
+    "amplitude_reduction": 0.0,
+    "right_back_forward_max": 0.00027004690312831104,
+    "least_squares_direct_reduction": 0.0,
+    "method_magnitude_difference": 0.0,
+    "net_power_out_over_in": 0.9999280109972564,
+    "extraction": "Betti reciprocity with COMSOL finite-element cut-line integration"
+  },
+  {
+    "case": "d20\\L8\\seed_101",
+    "length_mm": 8,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "T_real": 0.9965913274743443,
+    "T_imag": -0.08659221542799068,
+    "amplitude_reduction": -0.0003461829635795777,
+    "right_back_forward_max": 0.0004135279199065069,
+    "least_squares_direct_reduction": -0.0002804045845321568,
+    "method_magnitude_difference": 6.57783790474209e-05,
+    "net_power_out_over_in": 1.0006354834624012,
+    "extraction": "Betti reciprocity with COMSOL finite-element cut-line integration"
+  },
+  {
+    "case": "d80\\L8\\seed_101",
+    "length_mm": 8,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "T_real": 0.9953876855550167,
+    "T_imag": -0.09235487759363231,
+    "amplitude_reduction": 0.0003370228072325787,
+    "right_back_forward_max": 0.00022315996370919636,
+    "least_squares_direct_reduction": 0.00034410760039538246,
+    "method_magnitude_difference": 7.084793162803749e-06,
+    "net_power_out_over_in": 1.0000113504453927,
+    "extraction": "Betti reciprocity with COMSOL finite-element cut-line integration"
+  },
+  {
+    "case": "d80\\single_maximum",
+    "length_mm": 8,
+    "frequency_hz": 200000.0,
+    "mode": "A0",
+    "T_real": 0.9999229571636867,
+    "T_imag": -0.0106860031220515,
+    "amplitude_reduction": 1.9944736047938783e-05,
+    "right_back_forward_max": 0.0001716116494453322,
+    "least_squares_direct_reduction": 1.872880224496054e-05,
+    "method_magnitude_difference": 1.2159338029782418e-06,
+    "net_power_out_over_in": 0.9999856139748508,
+    "extraction": "Betti reciprocity with COMSOL finite-element cut-line integration"
+  }
+]

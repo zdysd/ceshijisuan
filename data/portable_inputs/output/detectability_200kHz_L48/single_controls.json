@@ -1,0 +1,338 @@
+[
+  {
+    "case_id": "single_max_area_center_r0",
+    "criterion": "max_area",
+    "origin": {
+      "seed": 106,
+      "length_mm": 8,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L8\\seed_106\\geometry\\geometry.json",
+      "split": "development"
+    },
+    "rotation_deg": 0,
+    "depth": "center",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7778.022806876324,
+    "equivalent_diameter_um": 99.51525620510115,
+    "span_um": 117.29378482592317,
+    "geometry_hash": "3f152cbf140e259bbf9db06eb5a51cbb3c6073aaca485b782bfda07527f3d7ab",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_center_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_max_area_upper_r0",
+    "criterion": "max_area",
+    "origin": {
+      "seed": 106,
+      "length_mm": 8,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L8\\seed_106\\geometry\\geometry.json",
+      "split": "development"
+    },
+    "rotation_deg": 0,
+    "depth": "upper",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7778.022806876324,
+    "equivalent_diameter_um": 99.51525620510115,
+    "span_um": 117.29378482592317,
+    "geometry_hash": "6db5e0b005dd7ff8cb362038b129161f520a12fbbffd8dd36fae5c27f9473bc2",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_upper_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_max_area_lower_r0",
+    "criterion": "max_area",
+    "origin": {
+      "seed": 106,
+      "length_mm": 8,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L8\\seed_106\\geometry\\geometry.json",
+      "split": "development"
+    },
+    "rotation_deg": 0,
+    "depth": "lower",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7778.022806876324,
+    "equivalent_diameter_um": 99.51525620510115,
+    "span_um": 117.29378482592317,
+    "geometry_hash": "dbf7e874fbe93f617a216d43655e0a71b511075fcaa9e7ce5b6159b35d6bc853",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_lower_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_max_area_center_r90",
+    "criterion": "max_area",
+    "origin": {
+      "seed": 106,
+      "length_mm": 8,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L8\\seed_106\\geometry\\geometry.json",
+      "split": "development"
+    },
+    "rotation_deg": 90,
+    "depth": "center",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7778.022806876324,
+    "equivalent_diameter_um": 99.51525620510115,
+    "span_um": 117.29378482592317,
+    "geometry_hash": "c6506b31ffcb241858add593effe035b1705a6647f5b1de4b96ba489ff6f08db",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_center_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_max_area_upper_r90",
+    "criterion": "max_area",
+    "origin": {
+      "seed": 106,
+      "length_mm": 8,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L8\\seed_106\\geometry\\geometry.json",
+      "split": "development"
+    },
+    "rotation_deg": 90,
+    "depth": "upper",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7778.022806876324,
+    "equivalent_diameter_um": 99.51525620510115,
+    "span_um": 117.29378482592317,
+    "geometry_hash": "3f7771ac8be306bf156e04dfc0d0e713adf2af8b8849f758873e974dfffed7d9",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_upper_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_max_area_lower_r90",
+    "criterion": "max_area",
+    "origin": {
+      "seed": 106,
+      "length_mm": 8,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\L8\\seed_106\\geometry\\geometry.json",
+      "split": "development"
+    },
+    "rotation_deg": 90,
+    "depth": "lower",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7778.022806876324,
+    "equivalent_diameter_um": 99.51525620510115,
+    "span_um": 117.29378482592317,
+    "geometry_hash": "7f56cf8ccb542c73e5938aa1f3367bcdecc3673c807aea57de17044047250dc7",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_area_lower_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_max_span_center_r0",
+    "criterion": "max_span",
+    "origin": {
+      "seed": 125,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+      "split": "independent_geometry_only"
+    },
+    "rotation_deg": 0,
+    "depth": "center",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7196.860951288886,
+    "equivalent_diameter_um": 95.72527336676208,
+    "span_um": 266.1539308115025,
+    "geometry_hash": "d19d4f6f5431e5b63d4e17b476408ef4623528b311a3243993f3e5463402d060",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_center_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_max_span_upper_r0",
+    "criterion": "max_span",
+    "origin": {
+      "seed": 125,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+      "split": "independent_geometry_only"
+    },
+    "rotation_deg": 0,
+    "depth": "upper",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7196.860951288886,
+    "equivalent_diameter_um": 95.72527336676208,
+    "span_um": 266.1539308115025,
+    "geometry_hash": "1b3e1535f6afabd3dc6216f087b39664b55a9ba2140a4f3a62affa2b1a25485a",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_upper_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_max_span_lower_r0",
+    "criterion": "max_span",
+    "origin": {
+      "seed": 125,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+      "split": "independent_geometry_only"
+    },
+    "rotation_deg": 0,
+    "depth": "lower",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7196.860951288886,
+    "equivalent_diameter_um": 95.72527336676208,
+    "span_um": 266.1539308115025,
+    "geometry_hash": "db22ba81f5fe9f6ecc22b2c3519c3fb001787ee77588bec410be0c55552da6ab",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_lower_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_max_span_center_r90",
+    "criterion": "max_span",
+    "origin": {
+      "seed": 125,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+      "split": "independent_geometry_only"
+    },
+    "rotation_deg": 90,
+    "depth": "center",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7196.860951288886,
+    "equivalent_diameter_um": 95.72527336676208,
+    "span_um": 266.1539308115025,
+    "geometry_hash": "227e353810132aa4132b6fe07790f6200c94066ad5a8c3fdaf7163d4510d11e7",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_center_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_max_span_upper_r90",
+    "criterion": "max_span",
+    "origin": {
+      "seed": 125,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+      "split": "independent_geometry_only"
+    },
+    "rotation_deg": 90,
+    "depth": "upper",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7196.860951288886,
+    "equivalent_diameter_um": 95.72527336676208,
+    "span_um": 266.1539308115025,
+    "geometry_hash": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_upper_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_max_span_lower_r90",
+    "criterion": "max_span",
+    "origin": {
+      "seed": 125,
+      "index": 0,
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\frozen_geometries\\seed_125\\geometry.json",
+      "split": "independent_geometry_only"
+    },
+    "rotation_deg": 90,
+    "depth": "lower",
+    "usable": true,
+    "reason": null,
+    "area_um2": 7196.860951288886,
+    "equivalent_diameter_um": 95.72527336676208,
+    "span_um": 266.1539308115025,
+    "geometry_hash": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_max_span_lower_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_strongest_development_response_center_r0",
+    "criterion": "strongest_development_response",
+    "origin": {
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+      "split": "development_single"
+    },
+    "rotation_deg": 0,
+    "depth": "center",
+    "usable": true,
+    "reason": null,
+    "area_um2": 6825.78943407852,
+    "equivalent_diameter_um": 93.22480909878131,
+    "span_um": 130.75572075070235,
+    "geometry_hash": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_center_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_strongest_development_response_upper_r0",
+    "criterion": "strongest_development_response",
+    "origin": {
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+      "split": "development_single"
+    },
+    "rotation_deg": 0,
+    "depth": "upper",
+    "usable": true,
+    "reason": null,
+    "area_um2": 6825.78943407852,
+    "equivalent_diameter_um": 93.22480909878131,
+    "span_um": 130.75572075070235,
+    "geometry_hash": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_upper_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_strongest_development_response_lower_r0",
+    "criterion": "strongest_development_response",
+    "origin": {
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+      "split": "development_single"
+    },
+    "rotation_deg": 0,
+    "depth": "lower",
+    "usable": true,
+    "reason": null,
+    "area_um2": 6825.78943407852,
+    "equivalent_diameter_um": 93.22480909878131,
+    "span_um": 130.75572075070235,
+    "geometry_hash": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_lower_r0\\geometry.json"
+  },
+  {
+    "case_id": "single_strongest_development_response_center_r90",
+    "criterion": "strongest_development_response",
+    "origin": {
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+      "split": "development_single"
+    },
+    "rotation_deg": 90,
+    "depth": "center",
+    "usable": true,
+    "reason": null,
+    "area_um2": 6825.78943407852,
+    "equivalent_diameter_um": 93.22480909878131,
+    "span_um": 130.75572075070235,
+    "geometry_hash": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_center_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_strongest_development_response_upper_r90",
+    "criterion": "strongest_development_response",
+    "origin": {
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+      "split": "development_single"
+    },
+    "rotation_deg": 90,
+    "depth": "upper",
+    "usable": true,
+    "reason": null,
+    "area_um2": 6825.78943407852,
+    "equivalent_diameter_um": 93.22480909878131,
+    "span_um": 130.75572075070235,
+    "geometry_hash": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_upper_r90\\geometry.json"
+  },
+  {
+    "case_id": "single_strongest_development_response_lower_r90",
+    "criterion": "strongest_development_response",
+    "origin": {
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\d80\\single_surface_upper\\geometry\\geometry.json",
+      "split": "development_single"
+    },
+    "rotation_deg": 90,
+    "depth": "lower",
+    "usable": true,
+    "reason": null,
+    "area_um2": 6825.78943407852,
+    "equivalent_diameter_um": 93.22480909878131,
+    "span_um": 130.75572075070235,
+    "geometry_hash": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4",
+    "geometry_path": "E:\\Documents\\ChatGPT\\测试\\output\\detectability_200kHz_L48\\single_controls\\single_strongest_development_response_lower_r90\\geometry.json"
+  }
+]

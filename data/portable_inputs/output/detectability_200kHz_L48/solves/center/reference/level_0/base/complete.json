@@ -1,0 +1,25 @@
+{
+  "signature_sha256": "dcb1654a9afc204fbc0c39f79ca44674ea592b4e38372cad78bd3389968c8c7b",
+  "geometry": null,
+  "legacy_sources": [
+    {
+      "frequency": 200000.0,
+      "mode": "S0",
+      "reuse": "raw dual-launch data",
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference_L48",
+      "fingerprint": "fa913d9e5e5523e5ae44e6a104e8155220efb1f9e743ec5ea935f82c80afb129"
+    },
+    {
+      "frequency": 200000.0,
+      "mode": "A0",
+      "reuse": "raw dual-launch data",
+      "source": "E:\\Documents\\ChatGPT\\测试\\output\\guided_collective\\reference_L48",
+      "fingerprint": "fa913d9e5e5523e5ae44e6a104e8155220efb1f9e743ec5ea935f82c80afb129"
+    }
+  ],
+  "finished_at": "2026-10-24T08:16:50.036366+00:00",
+  "launch_sha256": {
+    "200000_A0.npz": "031e12d15bf6a002671d9c2b74628294debcf0f7a90b0967f9ac9527a0435076",
+    "200000_S0.npz": "8fe57bf2dca891895aa2d83125d85b7f75ee2b991f390eef10d54cfe1e140d80"
+  }
+}
