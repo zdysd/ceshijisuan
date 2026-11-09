@@ -1,0 +1,659 @@
+{
+  "checked_at": "2026-11-09T20:08:35.329356+08:00",
+  "threshold_pct": 0.1,
+  "frequency_hz": 200000.0,
+  "pore_section_mm": 48.0,
+  "protocol_sha256": "ef5cfadfe1cd5d87839d5eabafa97f8b221c5dd4b095957d0225bc0c66df976d",
+  "original_gate_sha256": "ec815af8983f78132a56a81fc25611fe5169449a938b4ddc77b12290e78583b8",
+  "case_count": 22,
+  "reference_is_baseline": true,
+  "counts": {
+    "single": {
+      "S0": {
+        "below": 16,
+        "above": 2
+      },
+      "A0": {
+        "below": 16,
+        "above": 2
+      }
+    },
+    "group": {
+      "S0": {
+        "above": 3,
+        "below": 1
+      },
+      "A0": {
+        "above": 3,
+        "below": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "case_id": "group_seed_101",
+      "kind": "group",
+      "geometry_sha256": "edcfe006da5a957996e1284f1c89390d7f984a8c56fc8a504b61dd3e39e3476e",
+      "source": "原 P1",
+      "level": 2,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.13676685901241603,
+          "threshold_metric_pct": 0.13676685901241603,
+          "sensitivity_pct": 0.0001126612264590321,
+          "lower_pct": 0.136654197785957,
+          "upper_pct": 0.13687952023887506,
+          "verdict": "above"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.5020236100612196,
+          "threshold_metric_pct": 0.5020236100612196,
+          "sensitivity_pct": 0.001385906112616464,
+          "lower_pct": 0.5006377039486032,
+          "upper_pct": 0.5034095161738361,
+          "verdict": "above"
+        }
+      ]
+    },
+    {
+      "case_id": "group_seed_102",
+      "kind": "group",
+      "geometry_sha256": "c2a59f47774eaa39c70fa0bc8e82c45527cc10434eedad211cfa3aa432b9a257",
+      "source": "原 P1",
+      "level": 2,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.09757607405509461,
+          "threshold_metric_pct": 0.09757607405509461,
+          "sensitivity_pct": 3.200488836174742e-05,
+          "lower_pct": 0.09754406916673286,
+          "upper_pct": 0.09760807894345636,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.05949128778712787,
+          "threshold_metric_pct": 0.05949128778712787,
+          "sensitivity_pct": 0.0013151682187295677,
+          "lower_pct": 0.0581761195683983,
+          "upper_pct": 0.060806456005857434,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "group_seed_107",
+      "kind": "group",
+      "geometry_sha256": "4b7731a18f129c75cf87e006c6d5c5141534fd048b1b5507fa095b631b04f5c9",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.37232351736019575,
+          "threshold_metric_pct": 0.37232351736019575,
+          "sensitivity_pct": 0.00044340082981930706,
+          "lower_pct": 0.37188011653037645,
+          "upper_pct": 0.37276691819001506,
+          "verdict": "above"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.18424669971024432,
+          "threshold_metric_pct": 0.18424669971024432,
+          "sensitivity_pct": 0.009887684242348982,
+          "lower_pct": 0.17435901546789534,
+          "upper_pct": 0.1941343839525933,
+          "verdict": "above"
+        }
+      ]
+    },
+    {
+      "case_id": "group_seed_109",
+      "kind": "group",
+      "geometry_sha256": "5b6068f2abf87ce027172cc550bdc52b1a7686f15bec9faba2114a120c262e1b",
+      "source": "原 P1",
+      "level": 2,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.321170489733269,
+          "threshold_metric_pct": 0.321170489733269,
+          "sensitivity_pct": 0.00028458879971493545,
+          "lower_pct": 0.32088590093355407,
+          "upper_pct": 0.32145507853298394,
+          "verdict": "above"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.3800888630885346,
+          "threshold_metric_pct": 0.3800888630885346,
+          "sensitivity_pct": 0.00289998141460579,
+          "lower_pct": 0.37718888167392883,
+          "upper_pct": 0.3829888445031404,
+          "verdict": "above"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_area_center_r0",
+      "kind": "single",
+      "geometry_sha256": "3f152cbf140e259bbf9db06eb5a51cbb3c6073aaca485b782bfda07527f3d7ab",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.0028910874669607622,
+          "threshold_metric_pct": 0.0028910874669607622,
+          "sensitivity_pct": 2.4553641508884283e-05,
+          "lower_pct": 0.002866533825451878,
+          "upper_pct": 0.0029156411084696465,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.004431207641253376,
+          "threshold_metric_pct": 0.004431207641253376,
+          "sensitivity_pct": 0.0008645222100978067,
+          "lower_pct": 0.0035666854311555696,
+          "upper_pct": 0.005295729851351183,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_area_upper_r0",
+      "kind": "single",
+      "geometry_sha256": "6db5e0b005dd7ff8cb362038b129161f520a12fbbffd8dd36fae5c27f9473bc2",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.012961704717528999,
+          "threshold_metric_pct": 0.012961704717528999,
+          "sensitivity_pct": 0.00021824114530000216,
+          "lower_pct": 0.012743463572228997,
+          "upper_pct": 0.013179945862829001,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.016794989914648006,
+          "threshold_metric_pct": 0.016794989914648006,
+          "sensitivity_pct": 0.0022961698560086674,
+          "lower_pct": 0.014498820058639339,
+          "upper_pct": 0.019091159770656674,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_area_lower_r0",
+      "kind": "single",
+      "geometry_sha256": "dbf7e874fbe93f617a216d43655e0a71b511075fcaa9e7ce5b6159b35d6bc853",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.012976940279652016,
+          "threshold_metric_pct": 0.012976940279652016,
+          "sensitivity_pct": 0.00032414103803279914,
+          "lower_pct": 0.012652799241619217,
+          "upper_pct": 0.013301081317684815,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.01719102850407106,
+          "threshold_metric_pct": 0.01719102850407106,
+          "sensitivity_pct": 0.0003889317583327667,
+          "lower_pct": 0.016802096745738293,
+          "upper_pct": 0.017579960262403826,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_area_center_r90",
+      "kind": "single",
+      "geometry_sha256": "c6506b31ffcb241858add593effe035b1705a6647f5b1de4b96ba489ff6f08db",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.0037588381630704326,
+          "threshold_metric_pct": 0.0037588381630704326,
+          "sensitivity_pct": 3.626702517189884e-05,
+          "lower_pct": 0.0037225711378985338,
+          "upper_pct": 0.0037951051882423315,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.004408992529991718,
+          "threshold_metric_pct": 0.004408992529991718,
+          "sensitivity_pct": 0.0008419941750714699,
+          "lower_pct": 0.0035669983549202477,
+          "upper_pct": 0.0052509867050631875,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_area_upper_r90",
+      "kind": "single",
+      "geometry_sha256": "3f7771ac8be306bf156e04dfc0d0e713adf2af8b8849f758873e974dfffed7d9",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.017698172697833137,
+          "threshold_metric_pct": 0.017698172697833137,
+          "sensitivity_pct": 0.0002417553268352357,
+          "lower_pct": 0.0174564173709979,
+          "upper_pct": 0.017939928024668372,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.022923292522392114,
+          "threshold_metric_pct": 0.022923292522392114,
+          "sensitivity_pct": 0.003958452774721621,
+          "lower_pct": 0.018964839747670492,
+          "upper_pct": 0.026881745297113735,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_area_lower_r90",
+      "kind": "single",
+      "geometry_sha256": "7f56cf8ccb542c73e5938aa1f3367bcdecc3673c807aea57de17044047250dc7",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.017641163298287577,
+          "threshold_metric_pct": 0.017641163298287577,
+          "sensitivity_pct": 1.782260733440566e-05,
+          "lower_pct": 0.01762334069095317,
+          "upper_pct": 0.017658985905621982,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.023260902609423262,
+          "threshold_metric_pct": 0.023260902609423262,
+          "sensitivity_pct": 0.003851126348008993,
+          "lower_pct": 0.01940977626141427,
+          "upper_pct": 0.027112028957432255,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_span_center_r0",
+      "kind": "single",
+      "geometry_sha256": "d19d4f6f5431e5b63d4e17b476408ef4623528b311a3243993f3e5463402d060",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.001546702076460349,
+          "threshold_metric_pct": 0.001546702076460349,
+          "sensitivity_pct": 1.498617345774278e-05,
+          "lower_pct": 0.0015317159030026062,
+          "upper_pct": 0.0015616882499180917,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.018198153411475015,
+          "threshold_metric_pct": 0.018198153411475015,
+          "sensitivity_pct": 0.0010778603466987668,
+          "lower_pct": 0.01712029306477625,
+          "upper_pct": 0.019276013758173782,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_span_upper_r0",
+      "kind": "single",
+      "geometry_sha256": "1b3e1535f6afabd3dc6216f087b39664b55a9ba2140a4f3a62affa2b1a25485a",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.006390164257297215,
+          "threshold_metric_pct": 0.006390164257297215,
+          "sensitivity_pct": 0.00039036132888359276,
+          "lower_pct": 0.005999802928413622,
+          "upper_pct": 0.006780525586180808,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.006356902797111097,
+          "threshold_metric_pct": 0.006356902797111097,
+          "sensitivity_pct": 0.0066121891760251295,
+          "lower_pct": -0.0002552863789140325,
+          "upper_pct": 0.012969091973136226,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_span_lower_r0",
+      "kind": "single",
+      "geometry_sha256": "db22ba81f5fe9f6ecc22b2c3519c3fb001787ee77588bec410be0c55552da6ab",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.005743096759402988,
+          "threshold_metric_pct": 0.005743096759402988,
+          "sensitivity_pct": 5.661254378619418e-05,
+          "lower_pct": 0.005686484215616794,
+          "upper_pct": 0.005799709303189182,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.006060823245890301,
+          "threshold_metric_pct": 0.006060823245890301,
+          "sensitivity_pct": 0.0013236461498977725,
+          "lower_pct": 0.0047371770959925286,
+          "upper_pct": 0.007384469395788074,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_span_center_r90",
+      "kind": "single",
+      "geometry_sha256": "227e353810132aa4132b6fe07790f6200c94066ad5a8c3fdaf7163d4510d11e7",
+      "source": "原 P1",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.05058177537026198,
+          "threshold_metric_pct": 0.05058177537026198,
+          "sensitivity_pct": 0.00014286711887967485,
+          "lower_pct": 0.05043890825138231,
+          "upper_pct": 0.05072464248914166,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.016658711729855558,
+          "threshold_metric_pct": 0.016658711729855558,
+          "sensitivity_pct": 0.0007377210908932064,
+          "lower_pct": 0.01592099063896235,
+          "upper_pct": 0.017396432820748764,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_span_upper_r90",
+      "kind": "single",
+      "geometry_sha256": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1",
+      "source": "原 P1",
+      "level": 3,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.27720907228486746,
+          "threshold_metric_pct": 0.27720907228486746,
+          "sensitivity_pct": 0.00013523331459097676,
+          "lower_pct": 0.2770738389702765,
+          "upper_pct": 0.27734430559945844,
+          "verdict": "above"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.3318870793283857,
+          "threshold_metric_pct": 0.3318870793283857,
+          "sensitivity_pct": 0.00011526924525995241,
+          "lower_pct": 0.33177181008312573,
+          "upper_pct": 0.33200234857364563,
+          "verdict": "above"
+        }
+      ]
+    },
+    {
+      "case_id": "single_max_span_lower_r90",
+      "kind": "single",
+      "geometry_sha256": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.25441010769392536,
+          "threshold_metric_pct": 0.25441010769392536,
+          "sensitivity_pct": 0.0006945826951931799,
+          "lower_pct": 0.2537155249987322,
+          "upper_pct": 0.25510469038911854,
+          "verdict": "above"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.2908114069582912,
+          "threshold_metric_pct": 0.2908114069582912,
+          "sensitivity_pct": 0.0003958680013016469,
+          "lower_pct": 0.29041553895698957,
+          "upper_pct": 0.29120727495959287,
+          "verdict": "above"
+        }
+      ]
+    },
+    {
+      "case_id": "single_strongest_development_response_center_r0",
+      "kind": "single",
+      "geometry_sha256": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.004836559933718565,
+          "threshold_metric_pct": 0.004836559933718565,
+          "sensitivity_pct": 6.0542874036340066e-05,
+          "lower_pct": 0.004776017059682225,
+          "upper_pct": 0.004897102807754905,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.0038021475052607556,
+          "threshold_metric_pct": 0.0038021475052607556,
+          "sensitivity_pct": 0.004176603523164957,
+          "lower_pct": -0.00037445601790420113,
+          "upper_pct": 0.007978751028425712,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_strongest_development_response_upper_r0",
+      "kind": "single",
+      "geometry_sha256": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.02518517162312106,
+          "threshold_metric_pct": 0.02518517162312106,
+          "sensitivity_pct": 0.00021400133242144292,
+          "lower_pct": 0.024971170290699618,
+          "upper_pct": 0.025399172955542504,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.037018881437922424,
+          "threshold_metric_pct": 0.037018881437922424,
+          "sensitivity_pct": 0.004739060941827411,
+          "lower_pct": 0.03227982049609501,
+          "upper_pct": 0.041757942379749835,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_strongest_development_response_lower_r0",
+      "kind": "single",
+      "geometry_sha256": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.024001367283776887,
+          "threshold_metric_pct": 0.024001367283776887,
+          "sensitivity_pct": 0.0004477242636746759,
+          "lower_pct": 0.02355364302010221,
+          "upper_pct": 0.024449091547451562,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.03287600114821876,
+          "threshold_metric_pct": 0.03287600114821876,
+          "sensitivity_pct": 0.00449681811162117,
+          "lower_pct": 0.02837918303659759,
+          "upper_pct": 0.03737281925983993,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_strongest_development_response_center_r90",
+      "kind": "single",
+      "geometry_sha256": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.0026533766419922777,
+          "threshold_metric_pct": 0.0026533766419922777,
+          "sensitivity_pct": 2.519685829982521e-05,
+          "lower_pct": 0.0026281797836924525,
+          "upper_pct": 0.002678573500292103,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.0034655277249329153,
+          "threshold_metric_pct": 0.0034655277249329153,
+          "sensitivity_pct": 0.0004341307060506949,
+          "lower_pct": 0.0030313970188822204,
+          "upper_pct": 0.00389965843098361,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_strongest_development_response_upper_r90",
+      "kind": "single",
+      "geometry_sha256": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.012210093139697342,
+          "threshold_metric_pct": 0.012210093139697342,
+          "sensitivity_pct": 7.93531569676098e-05,
+          "lower_pct": 0.012130739982729732,
+          "upper_pct": 0.012289446296664952,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.015831107034891545,
+          "threshold_metric_pct": 0.015831107034891545,
+          "sensitivity_pct": 0.002421012829190161,
+          "lower_pct": 0.013410094205701384,
+          "upper_pct": 0.018252119864081706,
+          "verdict": "below"
+        }
+      ]
+    },
+    {
+      "case_id": "single_strongest_development_response_lower_r90",
+      "kind": "single",
+      "geometry_sha256": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4",
+      "source": "独立补算",
+      "level": 1,
+      "numerical_passed": true,
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.01230779471965704,
+          "threshold_metric_pct": 0.01230779471965704,
+          "sensitivity_pct": 8.112697422735238e-05,
+          "lower_pct": 0.012226667745429687,
+          "upper_pct": 0.012388921693884392,
+          "verdict": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.016834464869952548,
+          "threshold_metric_pct": 0.016834464869952548,
+          "sensitivity_pct": 0.002631561356392087,
+          "lower_pct": 0.014202903513560461,
+          "upper_pct": 0.019466026226344635,
+          "verdict": "below"
+        }
+      ]
+    }
+  ],
+  "original_p1_status": "needs_adjustment",
+  "p2_status": "blocked_by_p1",
+  "p3_status": "blocked_by_p1_and_p2",
+  "hardware_snapshot": {
+    "initial_policy_passed": true,
+    "reason": null,
+    "free_ram_gib": 96.97151947021484,
+    "free_f_gib": 13705.303272247314
+  }
+}
