@@ -1,0 +1,165 @@
+{
+  "plan": {
+    "case_ids": [
+      "reference",
+      "single_max_span_upper_r90",
+      "single_max_span_lower_r90"
+    ],
+    "geometry_sha256": {
+      "reference": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "single_max_span_upper_r90": "2d9e3660805ff4394b947cadf769533a0be1d44512849518af68f3f29ceba5b1",
+      "single_max_span_lower_r90": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71"
+    },
+    "frequency_hz": [
+      131249.99999999997,
+      139843.74999999997,
+      148437.49999999997,
+      157031.24999999997,
+      165624.99999999997,
+      174218.74999999997,
+      182812.49999999994,
+      191406.24999999994,
+      200000,
+      208593.74999999994,
+      217187.49999999994,
+      225781.24999999994,
+      234374.99999999994,
+      242968.74999999994,
+      251562.49999999994,
+      260156.24999999994,
+      268749.99999999994
+    ],
+    "threshold_pct": 0.1,
+    "primary_frequency_hz": 200000,
+    "original_protocol_sha256": "ef5cfadfe1cd5d87839d5eabafa97f8b221c5dd4b095957d0225bc0c66df976d",
+    "original_p1_validation_sha256": "ec815af8983f78132a56a81fc25611fe5169449a938b4ddc77b12290e78583b8",
+    "baseline_level": 1,
+    "mesh_control_level": 2,
+    "absorber_length_factor": 1.5,
+    "frequency_scope": "17 point base, finer mesh, and extended absorber for reference and both single pores",
+    "transient_scope": "Base and half step with matched geometry. Extend 280 us prefixes only if window checks fail.",
+    "transient_steps_s": [
+      6.201550387596901e-8,
+      3.1007751937984505e-8
+    ],
+    "transient_windows_us": [
+      280,
+      560
+    ],
+    "slowest_packet_bound_us": 146.61171554926085,
+    "comsol_cores": 2,
+    "minimum_free_disk_gib": 200,
+    "resource_policy_sha256": "c55bfdb82e995c94fd9705274fd6f604e45d5535881c73298050660c45132c2f",
+    "engine_sha256": {
+      "detectability_200kHz_L48.py": "9491a88f2ad686f39f4b5cb86e35362fca139f785a717187784eb6bbd9702d8b",
+      "detectability_worker.py": "e751fb7fc2771c02d302709e2bb632c9acf541be13664071db36963270c6114e",
+      "detectability_followon.py": "0cafbc2febdd52c58c3d1892dfeab242a99cb937bc195669531797e8422031cf",
+      "run_transient.py": "afa9457381253203deee18e0f1c337445bdad151038d4544a1062a9d9e37e8fa",
+      "cfrp_pores/comsol.py": "d1842990b448f796e5346dc4cb5d5034206a3ac56fabf2252592ce42d9ff4497",
+      "cfrp_pores/transient.py": "211d89dddad335d9140e982fa2af5662f6610a9d964f96cddadf4a6fccc031da",
+      "cfrp_pores/dispersion.py": "69ccf49f4389727e6cdb52e1d9b165c6eedfe9095c1526144755755805fda3e6",
+      "guided_collective.py": "8a2c93b0102e6224c1e1d7b1a5b1d34db18ab356efbcb7e25822b502430eaddc",
+      "cfrp_pores/pores.py": "0df2d59e6135ee970dc50b90b60833d9c88d77456c3c119dc0f079053ae69f47",
+      "cfrp_pores/portability.py": "9bc43eb10d8ad2448f7d9181e354e2ecf988cb08e4494950fda73a2c0fc16a41",
+      "tools/local_comsol_runtime.py": "d09e0ea7e3834058853a279fa4060de1a80ffb19c763a03e776304b411966693",
+      "tools/run_local.py": "ba35dfbc8459bc2721cfaa0f4df82ba614a772c3ab6fe7d19fc27a923def6a01"
+    },
+    "center_cache_variants": [
+      {
+        "case_id": "reference",
+        "level": 1,
+        "absorber": false,
+        "signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+        "launch_sha256": {
+          "200000_A0.npz": "e2d1044d3b12ec9861a385461348376e53ebf0d30a56ad152d3dc1e61385cb93",
+          "200000_S0.npz": "5189011660a79b6429842d7673d5e4a1c167940c727054e2d2a307514d8e2992"
+        }
+      },
+      {
+        "case_id": "reference",
+        "level": 2,
+        "absorber": false,
+        "signature_sha256": "0f53d57d3eef1448482fa78b08b402fdb4de3269030403b13fb465037e9c7816",
+        "launch_sha256": {
+          "200000_A0.npz": "af755dd8aa01d063dd54ebfacb0d3c56fc6cac904fd349ad12dad6e8a088ca05",
+          "200000_S0.npz": "672988b937d96c52c36ae008e408f1077e193623c151782018394eab984c44b3"
+        }
+      },
+      {
+        "case_id": "reference",
+        "level": 1,
+        "absorber": true,
+        "signature_sha256": "2d8b8b3937268997f14ab69f4ff0deeb96dc506cddaab58ec63a33897ffcef87",
+        "launch_sha256": {
+          "200000_A0.npz": "6c02b114c6e12769f5b7a1903286740c7b8fcf60630be093b78db0bd1aecdafa",
+          "200000_S0.npz": "03a96912ff859347093b9f854a829c1010168b29d37b2a8cd59227b7259347bb"
+        }
+      },
+      {
+        "case_id": "single_max_span_upper_r90",
+        "level": 1,
+        "absorber": false,
+        "signature_sha256": "31f4cb4cb03a833af60d955a02b612e8e8f23a8cb5f02e3d029e046569c4a9a7",
+        "launch_sha256": {
+          "200000_A0.npz": "a752e4ec0debf461d2c389b5552b2050c195d0a9084242efcedfb06cdd015af3",
+          "200000_S0.npz": "23c3f3ca47c3a2c4fc10a2299999305c7753a3a51637ab49cf6e586369a89567"
+        }
+      },
+      {
+        "case_id": "single_max_span_upper_r90",
+        "level": 2,
+        "absorber": false,
+        "signature_sha256": "5365985cd2e7f5f6f153caa5a186d698e835f6b259a12f84612fd16368ff4b2e",
+        "launch_sha256": {
+          "200000_A0.npz": "96dd517012ac34312e8540328862c7abff001b45559ffa22b65619d06d74c128",
+          "200000_S0.npz": "b3630a08a1a80c97ec20f31b1e6bdfca437d24d7b6ae3c3cc384bc7f03cc46c3"
+        }
+      },
+      {
+        "case_id": "single_max_span_upper_r90",
+        "level": 1,
+        "absorber": true,
+        "signature_sha256": "9263135a33285c1bf5c0faa03c38d9b2677d19e7705147d131d3930251aa00f7",
+        "launch_sha256": {
+          "200000_A0.npz": "55a363298890664b2adbbc547cf799adc7ebb03512d7275ab60858ecbcefed6c",
+          "200000_S0.npz": "f19a1881dc278575d4b5052350a36ad36f88b20be63e55eccf643e9f38888185"
+        }
+      },
+      {
+        "case_id": "single_max_span_lower_r90",
+        "level": 1,
+        "absorber": false,
+        "signature_sha256": "019a495920e4755639853e0490a655ef3bd5de15556647ad7ec5b0e03fa18e59",
+        "launch_sha256": {
+          "200000_A0.npz": "faf9cb8c926d22bc1a11b4e770b54048751f19fdedcef560ae8549757f0d1f71",
+          "200000_S0.npz": "a27011a1ec781762329a3867a472a7050dfa8d55370d789c6a4ec915737cbfbc"
+        }
+      },
+      {
+        "case_id": "single_max_span_lower_r90",
+        "level": 1,
+        "absorber": true,
+        "signature_sha256": "cf31cf3f2e8b0aa8a9c41907cf53a95f191995a1007d1e6d44fe03049ddf3eef",
+        "launch_sha256": {
+          "200000_A0.npz": "33ccb4006b4f77cbe95da058ffdf9b1c28b815743924b4792248918bf2338185",
+          "200000_S0.npz": "cde9948605eaf964909f17519410ab663c71b4151414c87c91c2032fd7b42239"
+        }
+      }
+    ],
+    "formal_p2_started": false,
+    "formal_p3_started": false
+  },
+  "progress": {
+    "phase": "running",
+    "started_at": "2026-11-09T21:31:47+08:00",
+    "threshold_pct": 0.1,
+    "plan_sha256": "9ef6600de109e565208bdd4be4105c91693cd99407d631fad7bf472448162023",
+    "formal_p2_started": false,
+    "formal_p3_started": false,
+    "band_runs": [],
+    "band_checks": [],
+    "transient_runs": [],
+    "transient_checks": [],
+    "updated_at": "2026-11-09T21:31:47+08:00"
+  }
+}
