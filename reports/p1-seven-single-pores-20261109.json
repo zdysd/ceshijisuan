@@ -1,0 +1,526 @@
+{
+  "phase": "complete",
+  "started_at": "2026-11-09T10:35:17.924615+00:00",
+  "updated_at": "2026-11-09T11:01:26.863432+00:00",
+  "frequency_hz": 200000.0,
+  "nominal_pore_section_mm": 48.0,
+  "threshold_pct": 0.1,
+  "protocol_sha256": "ef5cfadfe1cd5d87839d5eabafa97f8b221c5dd4b095957d0225bc0c66df976d",
+  "original_p1_validation_sha256": "ec815af8983f78132a56a81fc25611fe5169449a938b4ddc77b12290e78583b8",
+  "prior_failed_case": "single_max_span_upper_r90",
+  "prior_failed_score_pct": [
+    0.27720907228486746,
+    0.3318870793283857
+  ],
+  "p2_started": false,
+  "p3_started": false,
+  "scope": "Independent diagnostics. Refine only if numerical quality fails or either mode remains unresolved.",
+  "cases": [
+    "single_max_span_lower_r90",
+    "single_strongest_development_response_center_r0",
+    "single_strongest_development_response_upper_r0",
+    "single_strongest_development_response_lower_r0",
+    "single_strongest_development_response_center_r90",
+    "single_strongest_development_response_upper_r90",
+    "single_strongest_development_response_lower_r90"
+  ],
+  "completed": [
+    {
+      "case_id": "single_max_span_lower_r90",
+      "geometry_sha256": "0015273fdbec682c1003be4eebab23ee0ba647957293584c2981df0e45d82e71",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            5.550503220930203e-06,
+            1.5478682235947616e-07
+          ],
+          "phase_deg": [
+            0.001645535850705543,
+            0.0013860589230006745
+          ],
+          "relative_loss_change": [
+            0.002181714897746075,
+            5.322584281629503e-05
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            1.3476913737209273e-06,
+            1.7541080261640474e-06
+          ],
+          "phase_deg": [
+            0.0005198879626065854,
+            0.0006383791273709875
+          ],
+          "relative_loss_change": [
+            0.0005297318514334746,
+            0.0006028135706151915
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            4.763235728066917e-08,
+            2.0497851644929455e-06
+          ],
+          "phase_deg": [
+            5.724967499335669e-07,
+            5.5375653502172865e-05
+          ],
+          "relative_loss_change": [
+            1.8722316469401538e-05,
+            0.0007048503309868206
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.25441010769392536,
+          "score_pct": 0.25441010769392536,
+          "sensitivity_pct": 0.0006945826951931799,
+          "classification": "above"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.2908114069582912,
+          "score_pct": 0.2908114069582912,
+          "sensitivity_pct": 0.0003958680013016469,
+          "classification": "above"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "019a495920e4755639853e0490a655ef3bd5de15556647ad7ec5b0e03fa18e59"
+    },
+    {
+      "case_id": "single_strongest_development_response_center_r0",
+      "geometry_sha256": "03e67e5a910394b5b3f7134b0cb0ce46138585038d4079d0aa475fa6ba6c03b3",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            5.010908915581425e-07,
+            3.558038893136661e-05
+          ],
+          "phase_deg": [
+            0.00037002204671151016,
+            0.0003046086287632765
+          ],
+          "relative_loss_change": [
+            0.010254242495502523,
+            0.4834169544824812
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            7.294432546878227e-08,
+            4.11828716784246e-06
+          ],
+          "phase_deg": [
+            9.466385970536787e-05,
+            3.290657345442386e-05
+          ],
+          "relative_loss_change": [
+            0.001508186117166533,
+            0.10831476585651359
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            3.139352333647594e-08,
+            2.067359132440494e-06
+          ],
+          "phase_deg": [
+            7.950643497812642e-08,
+            1.599667057076181e-06
+          ],
+          "relative_loss_change": [
+            0.0006490878592780961,
+            0.054373459461529015
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.004836559933718565,
+          "score_pct": 0.004836559933718565,
+          "sensitivity_pct": 6.0542874036340066e-05,
+          "classification": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.0038021475052607556,
+          "score_pct": 0.0038021475052607556,
+          "sensitivity_pct": 0.004176603523164957,
+          "classification": "below"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "6333a11327fba07c508f20a34640c570ef04948655e202714d076f986ab68f48"
+    },
+    {
+      "case_id": "single_strongest_development_response_upper_r0",
+      "geometry_sha256": "1fc59b4c367a3fe4a9e1f195e35606fda95ef392df26803e41eb3ce05d1f5609",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            1.6050770527131775e-06,
+            4.4629447045752e-05
+          ],
+          "phase_deg": [
+            0.00022194191021543216,
+            0.0068454978129117
+          ],
+          "relative_loss_change": [
+            0.006373103494119724,
+            0.12055860499348653
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            4.845247756346538e-07,
+            4.4366230689263375e-08
+          ],
+          "phase_deg": [
+            8.042244165062636e-05,
+            2.742039958111937e-05
+          ],
+          "relative_loss_change": [
+            0.0019238494098243086,
+            0.00011984757228189577
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            5.041149586659799e-08,
+            2.7167961418328446e-06
+          ],
+          "phase_deg": [
+            5.236620499767078e-07,
+            6.854452895840163e-05
+          ],
+          "relative_loss_change": [
+            0.0002001634001982265,
+            0.007338947143469705
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.02518517162312106,
+          "score_pct": 0.02518517162312106,
+          "sensitivity_pct": 0.00021400133242144292,
+          "classification": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.037018881437922424,
+          "score_pct": 0.037018881437922424,
+          "sensitivity_pct": 0.004739060941827411,
+          "classification": "below"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "5e67254cd7f4c0e079d1aa8553c0ef5dc4fc18cab49bad1689b7c5cb201aef0f"
+    },
+    {
+      "case_id": "single_strongest_development_response_lower_r0",
+      "geometry_sha256": "a7c96a6cfb60f4815d826fe95bbc96d0a9a556b80d2d69b9cec87d5f3a3f9150",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            3.975122526034269e-06,
+            3.898044671390988e-05
+          ],
+          "phase_deg": [
+            0.00017408012180271273,
+            0.004371446887215734
+          ],
+          "relative_loss_change": [
+            0.01629223391224627,
+            0.11856809025577571
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            4.898295078437087e-07,
+            4.045171562716554e-06
+          ],
+          "phase_deg": [
+            6.805805607941766e-05,
+            6.759554116995811e-05
+          ],
+          "relative_loss_change": [
+            0.002036683470579174,
+            0.012154773329268596
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            1.2290602868780809e-08,
+            1.942562839585271e-06
+          ],
+          "phase_deg": [
+            1.3310572078449746e-06,
+            4.437266155765181e-05
+          ],
+          "relative_loss_change": [
+            5.120792796287205e-05,
+            0.005908756453765121
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.024001367283776887,
+          "score_pct": 0.024001367283776887,
+          "sensitivity_pct": 0.0004477242636746759,
+          "classification": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.03287600114821876,
+          "score_pct": 0.03287600114821876,
+          "sensitivity_pct": 0.00449681811162117,
+          "classification": "below"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "61aff4615d0958c99aa5d0e7eb177d34e98ec62ed52d4404154c0108b1737e88"
+    },
+    {
+      "case_id": "single_strongest_development_response_center_r90",
+      "geometry_sha256": "10fda2088bcb3c76f1e6693065f74a7bfcadeb92f4e2593c470d3d16b24d20e4",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            2.3276043437103766e-07,
+            3.828649900339265e-06
+          ],
+          "phase_deg": [
+            9.90808670744336e-05,
+            0.0002131609641774536
+          ],
+          "relative_loss_change": [
+            0.008695952061247679,
+            0.09948698544847581
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            9.283641633217599e-09,
+            1.9304883580595344e-07
+          ],
+          "phase_deg": [
+            4.7521958860170317e-07,
+            1.3945946681185925e-05
+          ],
+          "relative_loss_change": [
+            0.00034988028033016116,
+            0.005539687482673674
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            9.924506993996829e-09,
+            3.196083243617309e-07
+          ],
+          "phase_deg": [
+            1.872654757694522e-08,
+            1.762333280658036e-06
+          ],
+          "relative_loss_change": [
+            0.00037403310321391275,
+            0.00922250086364315
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.0026533766419922777,
+          "score_pct": 0.0026533766419922777,
+          "sensitivity_pct": 2.519685829982521e-05,
+          "classification": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.0034655277249329153,
+          "score_pct": 0.0034655277249329153,
+          "sensitivity_pct": 0.0004341307060506949,
+          "classification": "below"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "da72ece8318797f57269fea8461842f62aebddf0f1992711b553216b7700cf68"
+    },
+    {
+      "case_id": "single_strongest_development_response_upper_r90",
+      "geometry_sha256": "f0b072b65d3169e0cc48d0677488a45b8cbf23105c796a714913fbb0580cfd9e",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            4.758251229697308e-07,
+            1.4577994082665136e-05
+          ],
+          "phase_deg": [
+            7.532637477890304e-05,
+            0.0005313746610855198
+          ],
+          "relative_loss_change": [
+            0.0038818544108916307,
+            0.0843199315734296
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            3.134454107378559e-07,
+            7.213606742384471e-06
+          ],
+          "phase_deg": [
+            7.06789215111848e-05,
+            0.0003303565021868024
+          ],
+          "relative_loss_change": [
+            0.002560527765706936,
+            0.04358024959870846
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            4.261035968511351e-09,
+            2.418527466852005e-06
+          ],
+          "phase_deg": [
+            5.507555240405523e-07,
+            5.574843149124693e-05
+          ],
+          "relative_loss_change": [
+            3.489765327553407e-05,
+            0.01527705839851631
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.012210093139697342,
+          "score_pct": 0.012210093139697342,
+          "sensitivity_pct": 7.93531569676098e-05,
+          "classification": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.015831107034891545,
+          "score_pct": 0.015831107034891545,
+          "sensitivity_pct": 0.002421012829190161,
+          "classification": "below"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "cef02c3fb0ffb8febb4bddd4851e9844f8e7918aa4a1f9ecabdffba1ecce3977"
+    },
+    {
+      "case_id": "single_strongest_development_response_lower_r90",
+      "geometry_sha256": "1985043c8a8efc91da098d1f5d35a750496bf2e593a81a7feac6216368fb9fa4",
+      "level": 1,
+      "numerical_passed": true,
+      "controls": {
+        "mesh": {
+          "magnitude_delta": [
+            3.685597448344069e-07,
+            1.8409943183805844e-05
+          ],
+          "phase_deg": [
+            0.00024694421606973955,
+            0.0003839912210006408
+          ],
+          "relative_loss_change": [
+            0.0029945230094370386,
+            0.09857826251097933
+          ],
+          "passed": true
+        },
+        "absorber": {
+          "magnitude_delta": [
+            3.9490152170529313e-07,
+            3.268317950499977e-06
+          ],
+          "phase_deg": [
+            4.860389443273155e-05,
+            0.00023445781808305457
+          ],
+          "relative_loss_change": [
+            0.0031982863099427484,
+            0.019414445162040897
+          ],
+          "passed": true
+        },
+        "ports": {
+          "magnitude_delta": [
+            4.780847573382374e-08,
+            4.637352429615049e-06
+          ],
+          "phase_deg": [
+            1.4781208055914916e-06,
+            8.894988898759039e-05
+          ],
+          "relative_loss_change": [
+            0.0003884406331336337,
+            0.027546776600497435
+          ],
+          "passed": true
+        }
+      },
+      "modes": [
+        {
+          "mode": "S0",
+          "loss_pct": 0.01230779471965704,
+          "score_pct": 0.01230779471965704,
+          "sensitivity_pct": 8.112697422735238e-05,
+          "classification": "below"
+        },
+        {
+          "mode": "A0",
+          "loss_pct": 0.016834464869952548,
+          "score_pct": 0.016834464869952548,
+          "sensitivity_pct": 0.002631561356392087,
+          "classification": "below"
+        }
+      ],
+      "matched_reference_signature_sha256": "810dab86ae855619c7681650f77c4a2b7932b1cc0f28fccda18c3a44843bb93e",
+      "case_signature_sha256": "860489721ee3517f4e707934cd44723f2b9de906c707cfa431405a433c5ecd77"
+    }
+  ]
+}
